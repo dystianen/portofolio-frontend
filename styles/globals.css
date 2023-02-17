@@ -5,68 +5,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html,
 body {
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.dark {
+  color: #ffffff;
+  background-color: #000000;
+}
 
-    background-color: #ffffff;
+.container-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 80px;
-    background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  border-bottom: none;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+header > div {
+  width: calc(100vw - 5em);
+  max-width: 1024px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
 }
 
 main {
-    height: 100vh;
-    width: calc(100vw - 5em);
-    max-width: 900px;
+  height: 100vh;
+  width: calc(100vw - 5em);
+  max-width: 1024px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
-    color: #F97316;
-    font-size: 1.2rem;
+  color: inherit;
+  text-decoration: none;
+  color: #f97316;
+  font-size: 1.2rem;
 }
 
 a:not(:hover) {
-    color: grey;
+  color: grey;
 }
 
-a:hover {
+@media (min-width: 640px) {
+  a:hover {
     cursor: pointer;
-    /*-webkit-transform: scale(1.5);*/
-    transition: .5s;
-    /*border-bottom: 1px solid #F97316;*/
+    -webkit-transform: scale(1.1);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+}
+
+.animasi-teks {
+  font-size: 29px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 5s steps(70, end);
+  animation: animasi-ketik 5s steps(70, end);
+}
+@keyframes animasi-ketik {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes animasi-ketik {
+  from {
+    width: 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  header {
+    border-bottom: 1px solid lightgray;
+  }
 }
