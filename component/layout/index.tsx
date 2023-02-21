@@ -19,20 +19,19 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
   }
 
   return (
-    <div className={'container-body'}>
-      <header className={'shadow p-5'}>
+    <div className='container-body'>
+      <header className={`shadow p-5 bg-white z-50`}>
         <div>
           <h1>Tian Dev</h1>
           <div className={'hidden md:flex flex-row gap-10'}>
             <a onClick={() => router.push('/home')}>Home</a>
             <a onClick={() => router.push('/about')}>About</a>
             <a onClick={() => router.push('/portfolio')}>Portfolio</a>
-            <a onClick={() => router.push('/contact')}>Contact</a>
           </div>
 
-          <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`hidden md:flex flex-row items-center gap-4 ${isDarkMode ? 'bg-white' : 'bg-gray-800'} rounded-lg px-5 py-2`}>
+          <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`hidden md:flex flex-row items-center gap-4 ${isDarkMode ? 'bg-white' : 'bg-darkblue'} rounded-lg px-5 py-2 duration-300`}>
             <span className={`${isDarkMode ? 'text-black' : 'text-white'} font-bold text-lg`}>Github</span>
-            {isDarkMode ? <Image src='/github-mark.png' width={25} height={25} alt='github' /> : <Image src='/github-mark-white.png' width={25} height={25} alt='github' />}
+            {isDarkMode ? <Image src='/assets/github-mark.png' width={25} height={25} alt='github' /> : <Image src='/assets/github-mark-white.png' width={25} height={25} alt='github' />}
           </a>
 
           <button onClick={() => setIsShowNavbar(!isShowNavbar)} className={'flex flex-row md:hidden'}>
@@ -45,15 +44,18 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
         <a onClick={() => router.push('/home')}>Home</a>
         <a onClick={() => router.push('/about')}>About</a>
         <a onClick={() => router.push('/portfolio')}>Portfolio</a>
-        <a onClick={() => router.push('/contact')}>Contact</a>
+        <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`md:hidden flex flex-row items-center gap-4 ${isDarkMode ? 'bg-white' : 'bg-gray-800'} rounded-lg px-5 py-2 duration-300 w-max`}>
+          <span className={`${isDarkMode ? 'text-black' : 'text-white'} font-bold text-lg`}>Github</span>
+          {isDarkMode ? <Image src='/assets/github-mark.png' width={25} height={25} alt='github' /> : <Image src='/assets/github-mark-white.png' width={25} height={25} alt='github' />}
+        </a>
       </div>
 
       <main>
-        <div>{children}</div>
+        {children}
       </main>
-      <button onClick={onDarkMode} className='fixed bottom-5 right-5 bg-slate-400 rounded-full w-10 h-10 grid place-items-center'>
+      {/* <button onClick={onDarkMode} className='fixed bottom-5 right-5 bg-slate-400 rounded-full w-10 h-10 grid place-items-center'>
         {isDarkMode ? <MdLightMode className='text-xl' /> : <MdDarkMode className='text-xl' />}
-      </button>
+      </button> */}
     </div>
   );
 };

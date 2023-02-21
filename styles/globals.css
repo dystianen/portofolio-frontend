@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
 
+:root {
+  --darkgreen: #001920;
+  --darkblue: #00345B;
+  --lightblue: #00A7E6;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,10 +18,12 @@
 
 html,
 body {
-  overflow-x: hidden;
+  overflow: visible;
   font-family: 'Poppins', sans-serif;
-  color: #000000;
+  scroll-behavior: smooth;
+  color: var(--darkgreen);
   background-color: #ffffff;
+
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -25,29 +33,27 @@ body {
 
 .dark {
   color: #ffffff;
-  background-color: #000000;
+  background-color: var(--darkgreen);
 }
 
 .container-body {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 header {
   position: fixed;
-  top: 0;
   width: 100%;
   height: 80px;
-  border-bottom: none;
+  border-bottom: 1px solid var(--darkblue);
 
   display: flex;
   justify-content: center;
 }
 
 header > div {
-  width: calc(100vw - 5em);
-  max-width: 1024px;
+  width: min(100vw - 5em, 1024px);
 
   display: flex;
   flex-direction: row;
@@ -62,43 +68,34 @@ header h1 {
 }
 
 main {
-  height: 100vh;
-  width: calc(100vw - 5em);
-  max-width: 1024px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 80vh;
+  width: min(100vw - 5em, 1024px);
+  margin-top: 80px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  color: #f97316;
   font-size: 1.2rem;
-}
-
-a:not(:hover) {
-  color: grey;
 }
 
 @media (min-width: 640px) {
   a:hover {
     cursor: pointer;
+    color: var(--darkblue);
     -webkit-transform: scale(1.1);
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
   }
 }
 
 .animasi-teks {
-  font-size: 29px;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  -webkit-animation: typing 5s steps(70, end);
+  -webkit-animation: animasi-ketik 5s steps(70, end);
   animation: animasi-ketik 5s steps(70, end);
 }
 @keyframes animasi-ketik {
@@ -109,11 +106,5 @@ a:not(:hover) {
 @-webkit-keyframes animasi-ketik {
   from {
     width: 0;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  header {
-    border-bottom: 1px solid lightgray;
   }
 }
