@@ -47,7 +47,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
         </div>
       </header>
 
-      <div className={`z-50 absolute flex flex-col ${isShowNavbar ? 'visible' : 'invisible'} md:hidden gap-10 ${isDarkMode ? 'bg-gray-700' : 'bg-white'} min-h-40 w-full mt-20 rounded-b-[20px] p-10 shadow-2xl`}>
+      <div className={`z-50 fixed flex flex-col ${isShowNavbar ? 'visible' : 'invisible'} md:hidden gap-10 ${isDarkMode ? 'bg-gray-700' : 'bg-white'} min-h-40 w-full mt-20 rounded-b-[20px] p-10 shadow-2xl`}>
         <a onClick={() => onChangeMenu('/home')}>Home</a>
         <a onClick={() => onChangeMenu('/about')}>About</a>
         <a onClick={() => onChangeMenu('/portfolio')}>Portfolio</a>
