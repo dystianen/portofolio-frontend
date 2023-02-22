@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { ProgressBar } from '../progress-bar';
 import { Title } from '../title';
 
 export const Education = () => {
@@ -21,7 +20,7 @@ export const Education = () => {
     <>
       <Title>Education</Title>
 
-      <div className='relative flex flex-row bg-darkblue rounded-lg w-full p-10'>
+      <div className='relative flex flex-row bg-darkblue rounded-lg w-full p-5 md:p-10'>
         <div className='absolute top-2 right-2'>
           <Image src={'/assets/particle-white.png'} height={150} width={150} alt='calender' />
         </div>

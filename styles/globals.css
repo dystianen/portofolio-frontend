@@ -6,8 +6,8 @@
 
 :root {
   --darkgreen: #001920;
-  --darkblue: #00345B;
-  --lightblue: #00A7E6;
+  --darkblue: #00345b;
+  --lightblue: #00a7e6;
 }
 
 * {
@@ -79,18 +79,6 @@ a {
   font-size: 1.2rem;
 }
 
-@media (min-width: 640px) {
-  a:hover {
-    cursor: pointer;
-    color: var(--darkblue);
-    -webkit-transform: scale(1.1);
-    -webkit-transition: 0.1s;
-    -moz-transition: 0.1s;
-    -ms-transition: 0.1s;
-    -o-transition: 0.1s;
-  }
-}
-
 .animasi-teks {
   width: 100%;
   white-space: nowrap;
@@ -98,6 +86,7 @@ a {
   -webkit-animation: animasi-ketik 5s steps(70, end);
   animation: animasi-ketik 5s steps(70, end);
 }
+
 @keyframes animasi-ketik {
   from {
     width: 0;
@@ -106,5 +95,27 @@ a {
 @-webkit-keyframes animasi-ketik {
   from {
     width: 0;
+  }
+}
+
+.particle {
+  animation: rotate 10s infinite normal none;
+  -webkit-animation: rotate 10s infinite normal none;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
   }
 }

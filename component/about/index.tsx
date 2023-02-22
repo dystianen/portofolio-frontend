@@ -38,7 +38,7 @@ export const AboutMe = () => {
       </h3>
       <p className='text-xl'>I&#39;m a Frontend Developer with strong curiosity. I like to produce clean code. I strive to stay up-to-date with the latest technology.</p>
 
-      <div className='grid grid-cols-2 gap-x-10 gap-y-5 mt-8 w-4/6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 mt-8 w-full md:w-4/6'>
         {myData.map((it, index) => (
           <div key={index}>
             <div className='flex flex-row text-xl gap-2'>
@@ -55,7 +55,7 @@ export const AboutMe = () => {
         <Button>Hire Me</Button>
       </div>
 
-      <div className="absolute bottom-0 right-0">
+      <div className="particle invisible md:visible absolute bottom-0 right-0">
         <Image src='/assets/particle-blue.png' alt='particle' width={300} height={300} />
       </div>
     </div>
