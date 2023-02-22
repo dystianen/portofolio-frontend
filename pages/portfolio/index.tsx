@@ -1,26 +1,21 @@
-import React from 'react';
+import { Title } from '@/component/title';
+import data from '../../json/portofolio.json';
 
 const Portfolio = () => {
+
   return (
-    <div>
-      <div className='w-full'>
-        <h1>Hq background images</h1>
-        <p>Browse our beautiful selection of free background images–all submitted by our community of talented contributors and completely free to download and use.</p>
-      </div>
-      <div className={'flex flex-row flex-wrap w-full gap-4'}>
-        <div className={'bg-violet-500 rounded-lg p-5 h-48'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5 h-48'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5 h-48'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5 h-48'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5 h-48'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5 h-48'}>test</div>
-        <div className={'bg-violet-500 rounded-lg p-5 h-48'}>test</div>
+    <div className='relative pb-10'>
+      <Title>My Portfolio</Title>
+
+      <div className='grid grid-cols-2 md:grid-cols-4 gap-5 mt-8 w-full'>
+        {data.data.map((it, index) => (
+          <a key={index} href={it.href} target='_blank' rel="noreferrer" className='relative grid place-items-center rounded-lg bg-grey hover:shadow-2xl'>
+            <img className='h-40 w-full rounded-lg' src={it.img} alt={'thumbnail'} />
+            <div className='h-2/5 w-full flex items-end p-2 absolute bottom-0 rounded-b-lg bg-gradient-to-t from-black to-transparent'>
+              <h1 className='text-white text-sm'>{it.title}</h1>
+            </div>
+          </a>
+        ))}
       </div>
     </div>
   );

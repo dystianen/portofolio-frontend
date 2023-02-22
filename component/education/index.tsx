@@ -1,21 +1,9 @@
 import Image from 'next/image';
 import { Title } from '../title';
+import data from '../../json/about.json';
 
 export const Education = () => {
-  const data = [
-    {
-      name: 'Universitas Dian Nusantara',
-      start: '2022',
-      end: '2025',
-      field: 'Informatics',
-    },
-    {
-      name: 'SMK Telkom Malang',
-      start: '2018',
-      end: '2021',
-      field: 'Informatics',
-    },
-  ];
+
   return (
     <>
       <Title>Education</Title>
@@ -26,7 +14,7 @@ export const Education = () => {
         </div>
         <div className='w-1 min-h-full bg-grey rounded-full'></div>
         <div className='flex flex-col gap-10 -ml-[12px]'>
-          {data.map((it, index) => (
+          {data.education.map((it, index) => (
             <div key={index} className='flex flex-row gap-3'>
               <div className='bg-white rounded-full w-5 h-5'></div>
               <div className='flex flex-col gap-1 text-white text-xl'>

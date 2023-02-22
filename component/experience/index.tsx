@@ -1,34 +1,9 @@
 import Image from 'next/image';
-import { ProgressBar } from '../progress-bar';
 import { Title } from '../title';
+import data from '../../json/about.json';
 
 export const Experience = () => {
-  const data = [
-    {
-      name: 'PT Extramarks Indonesia / Kelas Pintar (Frontend Web Developer)',
-      start: 'Nov 2022',
-      end: 'Feb 2023',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    },
-    {
-      name: 'PT Adyatma Cendekia Sinergi Abadi (Frontend Web Developer)',
-      start: 'Aug 2021',
-      end: 'Aug 2023',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    },
-    {
-      name: 'PT Telkom Access Madiun (Graphic Desainer Internship)',
-      start: 'Aug 2020',
-      end: 'Nov 2020',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    },
-    {
-      name: 'Jagoan Hosting Indonesia (Backend Developer Internship)',
-      start: 'Jul 2019',
-      end: 'Jul 2020',
-      desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    },
-  ];
+
   return (
     <>
       <Title>Experience</Title>
@@ -42,7 +17,7 @@ export const Experience = () => {
         </div>
         <div className='w-1 min-h-full bg-grey rounded-full'></div>
         <div className='flex flex-col gap-10 -ml-[10px] md:-ml-[12px]'>
-          {data.map((it, index) => (
+          {data.experience.map((it, index) => (
             <div key={index} className='flex flex-row gap-3'>
               <div className='bg-white rounded-full w-5 h-5'></div>
               <div className='flex flex-col gap-1 text-white text-xl w-full'>
