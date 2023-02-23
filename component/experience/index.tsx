@@ -22,11 +22,15 @@ export const Experience = () => {
         <div className='absolute -bottom-8 -right-5'>
           <Image src={'/assets/particle-white.png'} height={150} width={150} alt='calender' />
         </div>
-        <div className='w-1 min-h-full bg-grey rounded-full'></div>
-        <div className='z-10 flex flex-col gap-10 -ml-[10px] md:-ml-[12px]'>
+        <div className='w-max'>
+          <div className='w-1 min-h-full bg-grey rounded-full'></div>
+        </div>
+        <div className='z-10 flex flex-col gap-10 -ml-[12px]'>
           {data.experience.map((it, index) => (
-            <div key={index} className='flex flex-row gap-3'>
-              <div className='bg-white rounded-full w-5 h-5'></div>
+            <div key={index} className='flex flex-row items-start gap-3'>
+              <div className='w-max'>
+                <div className='bg-white rounded-full w-5 h-5'></div>
+              </div>
               <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full'>
                 <div className='flex flex-row gap-2'>
                   <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />
@@ -48,7 +52,7 @@ export const Experience = () => {
                         </div>
                       ))}
                     </div>
-                    <p className='opacity-60'>Stacks : {data.stacks.length ? data.stacks.join(", ") : '-'}</p>
+                    <p className='opacity-60'>Stacks : {data.stacks.length ? data.stacks.join(', ') : '-'}</p>
                   </div>
                 ))}
               </div>
