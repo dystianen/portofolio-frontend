@@ -2,8 +2,13 @@
   "data": [
     {
       "title": "Landing Page Asy-Syfa’",
-      "img": "/assets/thumbnail.png",
+      "img": "/assets/thumbnail/syfa.png",
       "href": "https://dystianen.github.io/Index.html"
+    },
+    {
+      "title": "Landing Page Kelas Pintar",
+      "img": "/assets/thumbnail/kp.png",
+      "href": "https://www.kelaspintar.id/"
     }
   ]
 }
