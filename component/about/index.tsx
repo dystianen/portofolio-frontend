@@ -1,17 +1,24 @@
+import react, {useEffect} from 'react';
 import Image from 'next/image';
 import { Button } from '../button';
 import { Title } from '../title';
 import data from '../../json/about.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 export const AboutMe = () => {
+
+  useEffect(() => {
+    AOS.init()
+  }, [])
 
   return (
     <div className='relative'>
       <Title>About Me</Title>
-      <h3 className='text-3xl mb-5'>
+      <h3 data-aos="fade-up" className='text-3xl mb-5'>
         I&#39;m <span className='font-bold text-darkblue'>Dystian En Yusgiantoro</span> and a <span className='font-bold text-darkblue'>Frontend Developer!</span>
       </h3>
-      <p className='text-xl'>I&#39;m a Frontend Developer with strong curiosity. I like to produce clean code. I strive to stay up-to-date with the latest technology.</p>
+      <p data-aos="fade-up" className='text-xl'>I&#39;m a Frontend Developer with strong curiosity. I like to produce clean code. I strive to stay up-to-date with the latest technology.</p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 mt-8 w-full md:w-4/6'>
         {data.myInfo.map((it, index) => (

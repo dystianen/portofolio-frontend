@@ -9,6 +9,16 @@
       "title": "Landing Page Kelas Pintar",
       "img": "/assets/thumbnail/kp.png",
       "href": "https://www.kelaspintar.id/"
+    },
+    {
+      "title": "Landing Page Trustlink",
+      "img": "/assets/thumbnail/trustlink.png",
+      "href": "https://trustlink.k3s.bangun-kreatif.com/id"
+    },
+    {
+      "title": "Dashboard SPPBE",
+      "img": "/assets/thumbnail/sppbe.png",
+      "href": "https://sppbe.stag.sppbe-digital.com/"
     }
   ]
 }

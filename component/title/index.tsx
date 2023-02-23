@@ -1,8 +1,15 @@
-import react, { PropsWithChildren } from 'react';
+import react, { useEffect, PropsWithChildren } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 export const Title = ({ children }: PropsWithChildren<any>) => {
+
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
-    <div className='w-max my-10'>
+    <div data-aos='fade-right' className='w-max my-10'>
       <h1 className='text-[50px] text-darkgreen'>{children}</h1>
       <div className='flex flex-col gap-2'>
       <hr className='w-3/4 border-1'/>

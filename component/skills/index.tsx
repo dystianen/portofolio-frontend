@@ -1,8 +1,14 @@
+import react, { useEffect } from 'react';
 import { ProgressBar } from '../progress-bar';
 import { Title } from '../title';
 import data from '../../json/about.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Skills = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div>

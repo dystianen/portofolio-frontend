@@ -36,7 +36,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
             <a className={`hover:scale-110 ${path === 'portfolio' && 'scale-110 text-darkgreen'} hover:cursor-pointer hover:text-darkgreen duration-300`} onClick={() => onChangeMenu('/portfolio')}>Portfolio</a>
           </div>
 
-          <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`hidden md:flex flex-row items-center gap-4 ${isDarkMode ? 'bg-white' : 'bg-darkblue'} rounded-lg px-5 py-2`}>
+          <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`hidden md:flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2`}>
             <span className={`text-white font-bold text-lg`}>Github</span>
             <Image src='/assets/github-mark-white.png' width={25} height={25} alt='github' />
           </a>
