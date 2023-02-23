@@ -27,7 +27,7 @@ export const Experience = () => {
           {data.experience.map((it, index) => (
             <div key={index} className='flex flex-row gap-3'>
               <div className='bg-white rounded-full w-5 h-5'></div>
-              <div className='flex flex-col gap-1 text-white text-xl w-full'>
+              <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full'>
                 <div className='flex flex-row gap-2'>
                   <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />
                   <h4>
