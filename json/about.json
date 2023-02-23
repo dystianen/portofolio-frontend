@@ -119,7 +119,6 @@
         {
           "title": "Trustlink (01 February 2023 -  18 February 2023)",
           "details": [
-            "Creating Landing Page",
             "Slicing UI/UX design into application"
           ],
           "stacks": ["NextJs", "Tailwind CSS"]
