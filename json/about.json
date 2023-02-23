@@ -101,11 +101,11 @@
         {
           "title": "Kelas Pintar (November 2022 - February 2023)",
           "details": [
-            "Developing new features Kelas Pintar",
-            "Collaborate, discuss, and brainstorm with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
-            "Slicing UI/UX design into application",
-            "Integrate data from API",
-            "Enhance Features, Maintain Codes, and perform Bug Fixes"
+            "Developed new features Kelas Pintar",
+            "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
+            "Sliced UI/UX design into application",
+            "Integrated data from API",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
           "stacks": ["Zend Framework", "PHP", "VueJs", "Angular"]
         }
@@ -119,46 +119,46 @@
         {
           "title": "Trustlink (01 February 2023 -  18 February 2023)",
           "details": [
-            "Slicing UI/UX design into application"
+            "Sliced UI/UX design into application"
           ],
           "stacks": ["NextJs", "Tailwind CSS"]
         },
         {
           "title": "GMP (August 2022 - November 2022)",
           "details": [
-            "Slicing UI/UX design into application.",
-            "Wiring UI component with backend API.",
-            "Enhance Features, Maintain Codes, and perform Bug Fixes"
+            "Sliced UI/UX design into application.",
+            "Wired UI component with backend API.",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
           "stacks": ["NextJs", "Tailwind CSS", "Ant Design"]
         },
         {
           "title": "Open Banking System (CDI) (April 2022 - July 2022)",
           "details": [
-            "Slicing UI/UX design into application.",
-            "Wiring UI component with backend API.",
-            "Enhance Features, Maintain Codes, and perform Bug Fixes"
+            "Sliced UI/UX design into application.",
+            "Wired UI component with backend API.",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
           "stacks": ["ReactJs", "NextJs", "Tailwind CSS", "Ant Design"]
         },
         {
           "title": "SPPBE Management System (PT Pertamina) (July 2021 – July 2022)",
           "details": [
-            "Init Project SPPBE Managament",
-            "Slicing UI/UX design into application",
-            "Wiring UI component with backend API",
-            "Enhance Features, Maintain Codes, and perform Bug Fixes"
+            "Inited Project SPPBE Managament",
+            "Sliced UI/UX design into application",
+            "Wired UI component with backend API",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
           "stacks": ["ReactJs", "Ant Design"]
         },
         {
           "title": "CariParkir (PT Astra Digital International) (May 2021 – Juny 2022)",
           "details": [
-            "Developing new features CariParkir",
-            "Collaborate, discuss, and brainstorm with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
-            "Slicing UI/UX design into application",
-            "Integrate data from API",
-            "Enhance Features, Maintain Codes, and perform Bug Fixes"
+            "Developed new features CariParkir",
+            "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
+            "Sliced UI/UX design into application",
+            "Integrated data from API",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
           "stacks": ["VueJs", "ReactJs", "KoaJs", "Material-UI", "Vuetify"]
         }
@@ -172,8 +172,8 @@
         {
           "title": "",
           "details": [
-            "Make designs for internal purposes such as warnings",
-            "Mark home for indihome network coverage "
+            "Made designs for internal purposes such as warnings",
+            "ed home for indihome network coverage "
           ],
           "stacks": ["Corel Draw", "Photoshop"]
         }
@@ -186,7 +186,10 @@
       "desc": [
         {
           "title": "Freelancer (Jagoan Hosting) (Juny 2019 – Juny 2021)",
-          "details": ["Developing Freelancer aplication.", "Collaborate, discuss, and brainstorm with Frontend Developer & Product Owner", "Enhance Features, Maintain Codes, and perform Bug Fixes"],
+          "details": [
+            "Developed new features CariParkir", 
+            "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events", 
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"],
           "stacks": ["Laravel"]
         }
       ]
