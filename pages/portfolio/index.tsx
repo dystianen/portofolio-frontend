@@ -7,7 +7,7 @@ const Portfolio = () => {
     <div className='relative pb-10'>
       <Title>My Portfolio</Title>
 
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-5 mt-8 w-full'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-8 w-full'>
         {data.data.map((it, index) => (
           <a key={index} href={it.href} target='_blank' rel='noreferrer' className='relative grid place-items-center rounded-lg bg-grey hover:shadow-2xl'>
             <img className='h-60 md:h-44 w-full rounded-lg' src={it.img} alt={'thumbnail'} />
