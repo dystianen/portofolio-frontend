@@ -13,9 +13,9 @@ export const Skills = () => {
   return (
     <div>
       <Title>Skills</Title>
-      <div className='grid grid-cols-2 gap-x-10 gap-y-5'>
+      <div className='grid grid-cols-2 gap-x-5 md:gap-x-10 gap-y-5'>
         {data.skills.map((it, index) => (
-          <div key={index}>
+          <div key={index} data-aos='fade-up'>
             <ProgressBar title={it.title} percentage={it.percentage} />
           </div>
         ))}

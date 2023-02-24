@@ -32,19 +32,19 @@ export const Experience = () => {
                 <div className='bg-white rounded-full w-5 h-5'></div>
               </div>
               <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full'>
-                <div className='flex flex-row gap-2'>
+                <div data-aos='fade-up' className='flex flex-row gap-2'>
                   <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />
                   <h4>
                     {it.start} - {it.end}
                   </h4>
                 </div>
-                <h5 className='text-lightblue font-bold mb-3'>{it.name}</h5>
+                <h5 data-aos='fade-up' className='text-lightblue font-bold mb-3'>{it.name}</h5>
                 {it.desc.map((data, index) => (
                   <div key={index} className={'mb-5'}>
-                    <h5 className='mb-2'>{data.title}</h5>
+                    <h5 data-aos='fade-right' className='mb-2'>{data.title}</h5>
                     <div className='flex flex-col gap-4 mb-5'>
                       {data.details.map((detail, index) => (
-                        <div key={index} className='flex flex-row items-start md:items-center gap-2 md:gap-4 opacity-60'>
+                        <div key={index} data-aos='fade-right' className='flex flex-row items-start md:items-center gap-2 md:gap-4 opacity-60'>
                           <div className='w-max mt-1 md:mt-0'>
                             <BsFillArrowRightCircleFill />
                           </div>
@@ -52,7 +52,7 @@ export const Experience = () => {
                         </div>
                       ))}
                     </div>
-                    <p className='opacity-60'>Stacks : {data.stacks.length ? data.stacks.join(', ') : '-'}</p>
+                    <p data-aos='fade-up' className='opacity-60'>Stacks : {data.stacks.length ? data.stacks.join(', ') : '-'}</p>
                   </div>
                 ))}
               </div>
