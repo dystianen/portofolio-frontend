@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "title": "Landing Page Asy-Syfa’",
-      "img": "/assets/thumbnail/syfa.png",
-      "href": "https://dystianen.github.io/Index.html"
+      "title": "Landing Page Trustlink",
+      "img": "/assets/thumbnail/trustlink.png",
+      "href": "https://trustlink.k3s.bangun-kreatif.com/id"
     },
     {
       "title": "Landing Page Kelas Pintar",
@@ -11,14 +11,24 @@
       "href": "https://www.kelaspintar.id/"
     },
     {
-      "title": "Landing Page Trustlink",
-      "img": "/assets/thumbnail/trustlink.png",
-      "href": "https://trustlink.k3s.bangun-kreatif.com/id"
+      "title": "Landing Page Asy-Syfa’",
+      "img": "/assets/thumbnail/syfa.png",
+      "href": "https://dystianen.github.io/Index.html"
+    },
+    {
+      "title": "CariParkir BOTS",
+      "img": "/assets/thumbnail/cp.png",
+      "href": "https://bookinglockey.cariparkir.co.id/x1A83M/order"
     },
     {
       "title": "Dashboard SPPBE",
       "img": "/assets/thumbnail/sppbe.png",
       "href": "https://sppbe.stag.sppbe-digital.com/"
+    },
+    {
+      "title": "Open Banking",
+      "img": "/assets/thumbnail/open-banking.png",
+      "href": "https://app.withtrustlink.com/login"
     }
   ]
 }

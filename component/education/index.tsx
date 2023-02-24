@@ -31,7 +31,7 @@ export const Education = () => {
                   </h4>
                 </div>
                 <h5 className='text-lightblue font-bold'>{it.name}</h5>
-                <p>{it.field}</p>
+                <p className='opacity-60'>{it.field}</p>
               </div>
             </div>
           ))}
