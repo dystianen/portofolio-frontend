@@ -29,6 +29,11 @@
       "title": "Open Banking",
       "img": "/assets/thumbnail/open-banking.png",
       "href": "https://app.withtrustlink.com/login"
+    },
+    {
+      "title": "Sport Massage",
+      "img": "/assets/thumbnail/massage.png",
+      "href": "https://play.google.com/store/apps/details?id=com.sport.project_ibu_ayu_v2&hl=en"
     }
   ]
 }
