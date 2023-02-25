@@ -34,6 +34,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
             <a className={`hover:scale-110 ${path === 'home' && 'scale-110 text-darkgreen'} hover:cursor-pointer hover:text-darkgreen duration-300`} onClick={() => onChangeMenu('/home')}>Home</a>
             <a className={`hover:scale-110 ${path === 'about' && 'scale-110 text-darkgreen'} hover:cursor-pointer hover:text-darkgreen duration-300`} onClick={() => onChangeMenu('/about')}>About</a>
             <a className={`hover:scale-110 ${path === 'portfolio' && 'scale-110 text-darkgreen'} hover:cursor-pointer hover:text-darkgreen duration-300`} onClick={() => onChangeMenu('/portfolio')}>Portfolio</a>
+            <a className={`hover:scale-110 ${path === 'certificate' && 'scale-110 text-darkgreen'} hover:cursor-pointer hover:text-darkgreen duration-300`} onClick={() => onChangeMenu('/certificate')}>Certificate</a>
           </div>
 
           <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`hidden md:flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2`}>
@@ -51,6 +52,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
         <a onClick={() => onChangeMenu('/home')}>Home</a>
         <a onClick={() => onChangeMenu('/about')}>About</a>
         <a onClick={() => onChangeMenu('/portfolio')}>Portfolio</a>
+        <a onClick={() => onChangeMenu('/certificate')}>Certificate</a>
         <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`md:hidden flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2 w-max`}>
           <span className={`text-white font-bold text-lg`}>Github</span>
           <Image src='/assets/github-mark-white.png' width={25} height={25} alt='github' />
