@@ -1,8 +1,11 @@
 import { Button } from '@/component/button';
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const Home = () => {
+  const router = useRouter();
+  
   return (
     <div className={'flex flex-col-reverse md:flex-row items-center md:justify-between gap-5 md:gap-20 w-full h-full'}>
       <div className={'flex flex-col w-full md:w-2/4 gap-5 items-center md:items-start'}>
@@ -17,7 +20,7 @@ const Home = () => {
 
         <p className={'text-lg text-center md:text-left'}>I&#39;m a Frontend Developer with strong curiosity. I like to produce clean code. I strive to stay up-to-date with the latest technology.</p>
 
-        <Button route={'/about'}>More About Me</Button>
+        <Button onClick={() => router.push('/about')}>More About Me</Button>
       </div>
       <div className={'-mt-20'}>
         <Image src={'/assets/profile.png'} width={500} height={500} alt='profile' />
