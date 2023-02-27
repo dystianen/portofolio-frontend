@@ -29,7 +29,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
     <div id='container' className='container-body'>
       <header className={`shadow p-5 bg-white z-50`}>
         <div>
-          <h1>Tian Dev</h1>
+          <h1>DEY.</h1>
           <div className={'hidden md:flex flex-row gap-10'}>
             <a className={`hover:scale-110 ${path === 'home' && 'scale-110 text-darkgreen'} hover:cursor-pointer hover:text-darkgreen duration-300`} onClick={() => onChangeMenu('/home')}>Home</a>
             <a className={`hover:scale-110 ${path === 'about' && 'scale-110 text-darkgreen'} hover:cursor-pointer hover:text-darkgreen duration-300`} onClick={() => onChangeMenu('/about')}>About</a>

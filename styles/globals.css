@@ -64,7 +64,7 @@ header > div {
 header h1 {
   font-size: 2rem;
   font-weight: bold;
-  font-family: 'Pacifico', cursive;
+  color: var(--lightblue);
 }
 
 main {
