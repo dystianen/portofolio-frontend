@@ -26,6 +26,21 @@
     }
   ],
 
+  "skill": [
+    "Html", 
+    "Css", 
+    "Javascript", 
+    "Typescript", 
+    "PHP", 
+    "My Sql",
+    "React",
+    "Vue Js",
+    "Next Js",
+    "Angular",
+    "Code Igniter",
+    "Git"
+  ],
+
   "skills": [
     {
       "title": "Html",
