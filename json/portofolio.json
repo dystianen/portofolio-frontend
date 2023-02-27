@@ -34,6 +34,16 @@
       "title": "Sport Massage",
       "img": "/assets/thumbnail/massage.png",
       "href": "https://play.google.com/store/apps/details?id=com.sport.project_ibu_ayu_v2&hl=en"
+    },
+    {
+      "title": "Absensi Karyawan",
+      "img": "/assets/thumbnail/absensi.png",
+      "href": "https://absensikaryawan.web.id/"
+    },
+    {
+      "title": "GMP Koin",
+      "img": "/assets/thumbnail/gmp.png",
+      "href": "https://app.gmpcoin.io/"
     }
   ]
 }
