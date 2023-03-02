@@ -44,6 +44,11 @@
       "title": "GMP Koin",
       "img": "/assets/thumbnail/gmp.png",
       "href": "https://app.gmpcoin.io/"
+    },
+    {
+      "title": "Staycation",
+      "img": "/assets/thumbnail/staycation.png",
+      "href": "https://staycation-hotel.vercel.app/"
     }
   ]
 }
