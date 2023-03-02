@@ -1,5 +1,5 @@
 import { Title } from '@/component/title';
-import data from '../../json/certificate.json';
+import { data } from '../../json/certificate.json';
 import { MdClose } from 'react-icons/md';
 import { useState } from 'react';
 
@@ -17,7 +17,7 @@ const Certificate = () => {
       <Title>Certificate</Title>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-8 w-full'>
-        {data.data.map((it, index) => (
+        {data.map((it, index) => (
           <button key={index} onClick={() => onShowImage(it.img)} className='relative grid place-items-center rounded-lg bg-grey hover:shadow-2xl'>
             <img className='h-60 md:h-52 w-full rounded-lg' src={it.img} alt={'thumbnail'} />
             <div className='h-2/5 w-full flex items-end p-3 absolute bottom-0 rounded-b-lg bg-gradient-to-t from-black to-transparent'>
