@@ -31,6 +31,15 @@ body {
   -o-transition: 0.5s;
 }
 
+div,
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .dark {
   color: #ffffff;
   background-color: var(--darkgreen);
