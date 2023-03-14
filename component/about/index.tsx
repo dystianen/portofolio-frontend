@@ -21,7 +21,7 @@ export const AboutMe = (props: AboutType) => {
         I&#39;m <span className='font-bold text-darkblue'>Dystian En Yusgiantoro</span> and a <span className='font-bold text-darkblue'>Frontend Developer!</span>
       </h3>
       <p data-aos='fade-up' className='text-xl'>
-        I&#39;m a Frontend Developer with strong curiosity. I like to produce clean code. I strive to stay up-to-date with the latest technology.
+        I&#39;m a Frontend Developer with strong curiosity. I like to produce clean code. I strive to stay up-to-date with <br className='hidden md:block' /> the latest technology.
       </p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 mt-8 w-full md:w-4/6'>
