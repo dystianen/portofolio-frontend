@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import { Title } from '../title';
-import { data } from '../../json/experience.json';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
+import { ExperienceType } from '@/utils/types/Experience';
 
-export const Experience = () => {
+export const Experience = (props: ExperienceType) => {
   return (
     <>
       <Title>Experience</Title>
@@ -19,7 +19,7 @@ export const Experience = () => {
           <div className='w-1 min-h-full bg-grey rounded-full'></div>
         </div>
         <div className='z-10 flex flex-col gap-10 -ml-[12px]'>
-          {data.map((it, index) => (
+          {props.data.map((it, index) => (
             <div key={index} className='flex flex-row items-start gap-3'>
               <div className='w-max'>
                 <div className='bg-white rounded-full w-5 h-5'></div>

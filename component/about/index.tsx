@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react';
 import { Button } from '../button';
 import { Title } from '../title';
 import { MdClose } from 'react-icons/md';
-import { data } from '../../json/about.json';
 import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { AboutType } from '@/utils/types/About';
 
-export const AboutMe = () => {
+export const AboutMe = (props: AboutType) => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export const AboutMe = () => {
       </p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 mt-8 w-full md:w-4/6'>
-        {data.map((it, index) => (
+        {props.data.map((it, index) => (
           <div key={index}>
             <div className='flex flex-row text-xl gap-2'>
               <h5>{it.title} : </h5>

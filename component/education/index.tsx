@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { Title } from '../title';
-import { data } from '../../json/education.json';
+import { EducationType } from '@/utils/types/Education';
 
-export const Education = () => {
+export const Education = (props: EducationType) => {
   return (
     <>
       <Title>Education</Title>
@@ -13,7 +13,7 @@ export const Education = () => {
         </div>
         <div className='w-1 min-h-full bg-grey rounded-full'></div>
         <div className='z-10 flex flex-col gap-10 -ml-[12px]'>
-          {data.map((it, index) => (
+          {props.data.map((it, index) => (
             <div key={index} className='flex flex-row gap-3'>
               <div className='bg-white rounded-full w-5 h-5'></div>
               <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl'>
