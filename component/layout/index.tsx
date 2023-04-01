@@ -48,7 +48,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
         </div>
       </header>
 
-      <div className={`z-50 fixed flex flex-col ${isShowNavbar ? 'translate-x-0' : '-translate-x-[100rem]'} duration-300 md:hidden gap-10 ${isDarkMode ? 'bg-gray-700' : 'bg-white'} h-screen w-full rounded-b-[20px] px-10 py-5 shadow-2xl`}>
+      <div className={`z-50 fixed flex flex-col ${isShowNavbar ? 'translate-x-0' : '-translate-x-[100rem]'} duration-300 md:hidden gap-10 ${isDarkMode ? 'bg-gray-700' : 'bg-white'} h-screen w-full px-10 py-5 shadow-2xl`}>
         <div className={'flex flex-row justify-between items-center'}>
         <h1 className={'logo'} onClick={() => router.push('/home')}>DEY.</h1>
           <button onClick={() => setIsShowNavbar(false)} className={'flex flex-row md:hidden'}>
