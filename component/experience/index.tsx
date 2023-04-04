@@ -35,6 +35,8 @@ export const Experience = (props: ExperienceType) => {
                 {it.desc.map((data, index) => (
                   <div key={index} className={'mb-5'}>
                     <h5 className='mb-2'>{data.title}</h5>
+
+                    <h3 className={'opacity-60 mb-4'}>Responsibilities :</h3>
                     <div className='flex flex-col gap-4 mb-5'>
                       {data.details.map((detail, index) => (
                         <div key={index} className='flex flex-row items-start md:items-center gap-2 md:gap-4 opacity-60'>

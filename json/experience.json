@@ -8,11 +8,11 @@
         {
           "title": "Kelas Pintar (November 2022 - Current)",
           "details": [
-            "Developed new features for Kelas Pintar",
-            "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
-            "Sliced UI/UX design into application",
-            "Integrated data from API",
-            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
+            "Develop new features for Kelas Pintar",
+            "Collaborate, discuss, and brainstorm with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
+            "Slice UI/UX design into application",
+            "Integrate data from API",
+            "Enhance Features, Maintain Codes, and perform Bug Fixes"
           ],
           "stacks": ["Javascript", "Typescript", "PHP", "VueJs", "Angular", "NextJs", "Tailwind Css", "Chakra UI", "Zend Framework"]
         }
