@@ -28,7 +28,7 @@ export const AboutMe = (props: AboutType) => {
         {props.data.map((it, index) => (
           <div key={index}>
             <div className='flex flex-row flex-nowrap text-xl gap-2'>
-              <h5>{it.title}</h5>
+              <h5>{it.title} :</h5>
               <p className={'text-ellipsis overflow-hidden'}>{it.desc}</p>
             </div>
             <hr />
