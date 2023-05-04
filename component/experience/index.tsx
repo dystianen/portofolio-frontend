@@ -16,15 +16,15 @@ export const Experience = (props: ExperienceType) => {
           <Image src={'/assets/particle-white.png'} height={150} width={150} alt='calender' />
         </div>
         <div className='w-max'>
-          <div className='w-1 min-h-full bg-grey rounded-full'></div>
+          <div className='w-[0.2rem] min-h-full bg-grey opacity-60 rounded-full'></div>
         </div>
-        <div className='z-10 flex flex-col gap-10 -ml-[12px]'>
+        <div className='z-10 flex flex-col gap-10 -ml-[7.3px]'>
           {props.data.map((it, index) => (
             <div key={index} className='flex flex-row items-start gap-3'>
               <div className='w-max'>
-                <div className='bg-white rounded-full w-5 h-5'></div>
+                <div className='bg-white rounded-full w-3 h-3'></div>
               </div>
-              <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full'>
+              <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full -mt-2'>
                 <div className='flex flex-row gap-2'>
                   <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />
                   <h4>
