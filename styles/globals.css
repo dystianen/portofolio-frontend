@@ -61,7 +61,7 @@ header {
 }
 
 header > div {
-  width: min(100vw - 5em, 1200px);
+  width: min(100vw - 2em, 1024px);
 
   display: flex;
   flex-direction: row;
@@ -70,14 +70,14 @@ header > div {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: bold;
   color: var(--lightblue);
 }
 
 main {
   height: 80vh;
-  width: min(100vw - 5em, 1200px);
+  width: min(100vw - 2em, 1024px);
   margin-top: 80px;
 }
 

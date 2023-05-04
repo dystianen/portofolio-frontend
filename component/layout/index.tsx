@@ -27,7 +27,7 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
 
   return (
     <div id='container' className='container-body'>
-      <header className={`shadow p-5 bg-white z-50`}>
+      <header className={`shadow p-0 bg-white z-50 h-[65px]`}>
         <div>
           <h1 className={'logo'} onClick={() => router.push('/home')}>DEY.</h1>
           <div className={'hidden md:flex flex-row gap-10'}>
@@ -38,8 +38,8 @@ const DefaultLayout = ({ children }: PropsWithChildren<unknown>): JSX.Element =>
           </div>
 
           <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer' className={`hidden md:flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2`}>
-            <span className={`text-white font-bold text-lg`}>Github</span>
-            <Image src='/assets/github-mark-white.png' width={25} height={25} alt='github' />
+            <span className={`text-white font-bold text-[16px]`}>Github</span>
+            <Image src='/assets/github-mark-white.png' width={20} height={20} alt='github' />
           </a>
 
           <button onClick={() => setIsShowNavbar(true)} className={'flex flex-row md:hidden'}>

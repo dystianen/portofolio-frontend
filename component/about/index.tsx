@@ -61,7 +61,7 @@ export const AboutMe = (props: AboutType) => {
         </>
       )}
 
-      <div className='particle invisible md:visible absolute bottom-0 right-0'>
+      <div className='invisible md:visible absolute bottom-0 right-0'>
         <Image src='/assets/particle-blue.png' alt='particle' width={300} height={300} />
       </div>
     </div>
