@@ -3,18 +3,18 @@
     {
       "name": "PT Extramarks Indonesia / Kelas Pintar (Frontend Web Developer - Vendor)",
       "start": "November 2022",
-      "end": "February 2023",
+      "end": "Current",
       "desc": [
         {
-          "title": "Kelas Pintar (November 2022 - February 2023)",
+          "title": "Kelas Pintar (November 2022 - Current)",
           "details": [
-            "Developed new features for Kelas Pintar",
-            "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
-            "Sliced UI/UX design into application",
-            "Integrated data from API",
-            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
+            "Develop new features for Kelas Pintar",
+            "Collaborate, discuss, and brainstorm with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
+            "Slice UI/UX design into application",
+            "Integrate data from API",
+            "Enhance Features, Maintain Codes, and perform Bug Fixes"
           ],
-          "stacks": ["Zend Framework", "PHP", "VueJs", "Angular"]
+          "stacks": ["Javascript", "Typescript", "PHP", "VueJs", "Angular", "NextJs", "Tailwind Css", "Chakra UI", "Zend Framework"]
         }
       ]
     },
@@ -25,7 +25,7 @@
       "desc": [
         {
           "title": "Trustlink (01 February 2023 -  18 February 2023)",
-          "details": ["Sliced UI/UX design into application"],
+          "details": ["Developed Landing Page", "Sliced UI/UX design into application"],
           "stacks": ["NextJs", "Tailwind CSS"]
         },
         {
@@ -40,7 +40,7 @@
         },
         {
           "title": "SPPBE Management System (PT Pertamina) (July 2021 – July 2022)",
-          "details": ["Sliced UI/UX design into application", "Wired UI component with backend API", "Enhanced Features, Maintained Codes, and performed Bug Fixes"],
+          "details": ["Sliced UI/UX design into application", "Wired UI component with backend API", "Enhanced Features, Maintained Codes, and performed Bug Fixes", "Integrated Google Maps"],
           "stacks": ["ReactJs", "Ant Design"]
         },
         {
@@ -50,7 +50,8 @@
             "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
             "Sliced UI/UX design into application",
             "Integrated data from API",
-            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes",
+            "Integrated Google Maps"
           ],
           "stacks": ["VueJs", "ReactJs", "KoaJs", "Material-UI", "Vuetify"]
         }
