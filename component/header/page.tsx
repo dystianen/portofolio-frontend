@@ -18,14 +18,13 @@ export const Header = () => {
     <header className={`shadow p-0 bg-white z-50 h-[65px]`}>
       <div>
         <Image
-          onClick={() => router.push('/home')}
+          onClick={() => router.push('/')}
           src={'/assets/thumbnail/profile.jpg'}
           alt={'profile'}
           width={50}
           height={50}
           className={'rounded-full object-fill border-double border-4 border-darkblue'}
         />
-        {/*<h1 className={'logo'} onClick={() => router.push('/home')}>DEY.</h1>*/}
         <div className={'hidden md:flex flex-row gap-10'}>
           <a
             className={`${path === '' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer`}
@@ -56,7 +55,14 @@ export const Header = () => {
     <div
       className={`z-50 fixed flex flex-col ${isShowNavbar ? 'translate-x-0' : '-translate-x-[100rem]'} duration-300 md:hidden gap-10 bg-white h-screen w-full px-10 py-5 shadow-2xl`}>
       <div className={'flex flex-row justify-between items-center'}>
-        <h1 className={'logo'} onClick={() => router.push('/home')}>DEY.</h1>
+        <Image
+          onClick={() => router.push('/')}
+          src={'/assets/thumbnail/profile.jpg'}
+          alt={'profile'}
+          width={50}
+          height={50}
+          className={'rounded-full object-fill border-double border-4 border-darkblue'}
+        />
         <button onClick={() => setIsShowNavbar(false)} className={'flex flex-row md:hidden'}>
           <MdClose className='text-4xl'/>
         </button>
