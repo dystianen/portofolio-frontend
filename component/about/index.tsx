@@ -37,7 +37,13 @@ export const AboutMe = (props: AboutType) => {
       </div>
 
       <div className='flex flex-row gap-5 mt-8'>
-        <Button onClick={() => setShowModal(true)}>Download CV</Button>
+        <a
+          className={'bg-darkblue grid place-items-center text-white rounded-lg px-4 hover:cursor-pointer'}
+          href={'/cv.pdf'}
+          download={'CV-Dystian En Yusgiantoro'}
+        >
+          Download CV
+        </a>
         <Button onClick={() => setShowModal(true)}>Hire Me</Button>
       </div>
 
