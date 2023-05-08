@@ -50,7 +50,7 @@ const Home = () => {
 
         <div className={'flex flex-row items-center gap-8 mb-4'}>
           {contact.map((it, index) => (
-            <Image className={'hover:cursor-pointer'} onClick={() => window.open(it.href)} key={index} src={it.img} alt={it.alt} width={35} height={35}/>
+            <Image className={'img-contact hover:cursor-pointer'} onClick={() => window.open(it.href)} key={index} src={it.img} alt={it.alt} width={35} height={35}/>
           ))}
         </div>
         <Button onClick={() => router.push('/about')}>More About Me</Button>

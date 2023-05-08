@@ -157,3 +157,7 @@ a {
     transform: rotate(360deg);
   }
 }
+
+.img-contact {
+  filter: invert(9%) sepia(21%) saturate(2596%) hue-rotate(151deg) brightness(95%) contrast(104%);
+}
