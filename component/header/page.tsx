@@ -40,11 +40,11 @@ export const Header = () => {
             onClick={() => onChangeMenu('/certificate')}>Certificate</a>
         </div>
 
-        <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer'
-           className={`hidden md:flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2`}>
-          <span className={`text-white font-bold text-[16px]`}>Github</span>
-          <Image src='/assets/github-mark-white.png' width={20} height={20} alt='github'/>
-        </a>
+        {/*<a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer'*/}
+        {/*   className={`hidden md:flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2`}>*/}
+        {/*  <span className={`text-white font-bold text-[16px]`}>Github</span>*/}
+        {/*  <Image src='/assets/github-mark-white.png' width={20} height={20} alt='github'/>*/}
+        {/*</a>*/}
 
         <button onClick={() => setIsShowNavbar(true)} className={'flex flex-row md:hidden'}>
           <MdMenu className='text-4xl'/>
@@ -71,11 +71,11 @@ export const Header = () => {
       <a className={`${path === 'about' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer w-fit`} onClick={() => onChangeMenu('/about')}>About</a>
       <a className={`${path === 'portfolio' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer w-fit`} onClick={() => onChangeMenu('/portfolio')}>Portfolio</a>
       <a className={`${path === 'certificate' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer w-fit`} onClick={() => onChangeMenu('/certificate')}>Certificate</a>
-      <a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer'
-         className={`md:hidden flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2 w-max`}>
-        <span className={`text-white font-bold text-lg`}>Github</span>
-        <Image src='/assets/github-mark-white.png' width={25} height={25} alt='github'/>
-      </a>
+      {/*<a href='https://github.com/dystianen' target={'_blank'} rel='noreferrer'*/}
+      {/*   className={`md:hidden flex flex-row items-center gap-4 bg-darkgreen rounded-lg px-5 py-2 w-max`}>*/}
+      {/*  <span className={`text-white font-bold text-lg`}>Github</span>*/}
+      {/*  <Image src='/assets/github-mark-white.png' width={25} height={25} alt='github'/>*/}
+      {/*</a>*/}
     </div>
   </>
 }

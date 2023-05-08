@@ -14,7 +14,7 @@ const Certificate = (props: CertificateType) => {
   }
 
   return (
-    <div className='relative pb-10'>
+    <div className='relative pb-10 -mt-8 md:mt-0'>
       <Title>Certificate</Title>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-8 w-full'>
