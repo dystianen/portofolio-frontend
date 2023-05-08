@@ -61,7 +61,7 @@ header {
 }
 
 header > div {
-  width: min(100vw - 2em, 1024px);
+  width: min(100vw - 2em, 1180px);
 
   display: flex;
   flex-direction: row;
@@ -77,7 +77,7 @@ header > div {
 
 main {
   height: 80vh;
-  width: min(100vw - 2em, 1024px);
+  width: min(100vw - 2em, 1180px);
   margin-top: 80px;
 }
 
