@@ -17,7 +17,14 @@ export const Header = () => {
   return <>
     <header className={`shadow p-0 bg-white z-50 h-[65px]`}>
       <div>
-        <Image onClick={() => router.push('/home')} src={'/assets/thumbnail/profile.jpg'} alt={'profile'} width={50} height={50} className={'rounded-full object-fill'}/>
+        <Image
+          onClick={() => router.push('/home')}
+          src={'/assets/thumbnail/profile.jpg'}
+          alt={'profile'}
+          width={50}
+          height={50}
+          className={'rounded-full object-fill border-double border-4 border-darkblue'}
+        />
         {/*<h1 className={'logo'} onClick={() => router.push('/home')}>DEY.</h1>*/}
         <div className={'hidden md:flex flex-row gap-10'}>
           <a
