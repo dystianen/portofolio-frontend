@@ -17,7 +17,8 @@ export const Header = () => {
   return <>
     <header className={`shadow p-0 bg-white z-50 h-[65px]`}>
       <div>
-        <h1 className={'logo'} onClick={() => router.push('/home')}>DEY.</h1>
+        <Image onClick={() => router.push('/home')} src={'/assets/thumbnail/profile.jpg'} alt={'profile'} width={50} height={50} className={'rounded-full object-fill'}/>
+        {/*<h1 className={'logo'} onClick={() => router.push('/home')}>DEY.</h1>*/}
         <div className={'hidden md:flex flex-row gap-10'}>
           <a
             className={`${path === '' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer`}
