@@ -1,12 +1,17 @@
 import Image from "next/image";
 import { MdClose, MdMenu } from "react-icons/md";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 export const Header = () => {
   const router = useRouter();
   const [path, setPath] = useState('')
   const [isShowNavbar, setIsShowNavbar] = useState(false)
+
+  useEffect(() => {
+    const pathURL = window.location.pathname.replace(/^./, "");
+    setPath(pathURL)
+  }, [])
 
   function onChangeMenu(route: any) {
     router.push(route)
