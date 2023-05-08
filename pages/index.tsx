@@ -38,7 +38,7 @@ const Home = () => {
     <div className={'flex flex-col-reverse md:flex-row items-center md:justify-between gap-5 md:gap-20 w-full h-full'}>
       <div className={'flex flex-col w-full md:w-2/4 gap-5 items-center md:items-start'}>
         <div className={'flex flex-col'}>
-          <h1 className={'animasi-teks text-2xl md:text-3xl text-center md:text-left'}>
+          <h1 className={'text-2xl md:text-3xl text-center md:text-left'}>
             Hello my name is <span className={'font-bold text-darkblue'}>Dystian En Yusgiantoro</span>
           </h1>
           <h1 className={'animasi-teks title text-3xl md:text-4xl text-center md:text-left'}>
