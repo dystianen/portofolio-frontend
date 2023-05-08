@@ -21,11 +21,6 @@
       "href": "http://battle.kelaspintar.id/"
     },
     {
-      "title": "Landing Page Asy-Syfa’",
-      "img": "/assets/thumbnail/syfa.png",
-      "href": "https://dystianen.github.io/Index.html"
-    },
-    {
       "title": "CariParkir BOTS",
       "img": "/assets/thumbnail/cp.png",
       "href": "https://bookinglockey.cariparkir.co.id/x1A83M/order"
@@ -54,6 +49,11 @@
       "title": "GMP Koin",
       "img": "/assets/thumbnail/gmp.png",
       "href": "https://app.gmpcoin.io/"
+    },
+    {
+      "title": "Landing Page Asy-Syfa’",
+      "img": "/assets/thumbnail/syfa.png",
+      "href": "https://dystianen.github.io/Index.html"
     }
   ]
 }

@@ -25,7 +25,7 @@ export const AboutMe = (props: AboutType) => {
       </p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 mt-8 w-full md:w-4/6'>
-        {props.data.map((it, index) => (
+        {props.data?.map((it, index) => (
           <div key={index}>
             <div className='flex flex-row flex-nowrap text-xl gap-2'>
               <h5>{it.title} :</h5>
