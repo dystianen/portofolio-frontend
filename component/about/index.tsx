@@ -38,13 +38,18 @@ export const AboutMe = (props: AboutType) => {
 
       <div className='flex flex-row gap-5 mt-8'>
         <a
-          className={'bg-darkblue grid place-items-center text-white rounded-lg px-4 hover:cursor-pointer'}
+          className={'bg-darkblue grid place-items-center text-white rounded-lg px-4 py-2 hover:cursor-pointer'}
           href={'/CV-Dystian En Yusgiantoro.pdf'}
           download={'CV-Dystian En Yusgiantoro'}
         >
           Download CV
         </a>
-        <Button onClick={() => setShowModal(true)}>Hire Me</Button>
+        <a
+          className={'bg-darkblue grid place-items-center text-white rounded-lg px-4 py-2 hover:cursor-pointer'}
+          href={'https://wa.me/+6281514365317'}
+        >
+          Hire Me
+        </a>
       </div>
 
       {showModal && (
