@@ -39,7 +39,7 @@ export const AboutMe = (props: AboutType) => {
       <div className='flex flex-row gap-5 mt-8'>
         <a
           className={'bg-darkblue grid place-items-center text-white rounded-lg px-4 hover:cursor-pointer'}
-          href={'/cv.pdf'}
+          href={'/CV-Dystian En Yusgiantoro.pdf'}
           download={'CV-Dystian En Yusgiantoro'}
         >
           Download CV
