@@ -54,7 +54,7 @@ const Certificate = (props: CertificateType) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       data: certificate.data

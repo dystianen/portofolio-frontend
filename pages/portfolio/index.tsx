@@ -26,7 +26,7 @@ const Portfolio = (props: PortfolioType) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       data: portfolio.data
