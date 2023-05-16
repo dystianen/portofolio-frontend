@@ -9,9 +9,9 @@ export const Header = () => {
   const [isShowNavbar, setIsShowNavbar] = useState(false)
 
   useEffect(() => {
-    const pathURL = window.location.pathname.replace(/^./, "");
+    const pathURL = router.pathname.replace(/^./, "");
     setPath(pathURL)
-  }, [])
+  }, [router])
 
   function onChangeMenu(route: any) {
     router.push(route)
