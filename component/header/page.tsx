@@ -20,7 +20,7 @@ export const Header = () => {
   }
 
   return <>
-    <header className={`p-0 bg-white z-50 h-[65px]`}>
+    <header className={`p-0 bg-white z-50 h-[65px] ${isShowNavbar ? '' : 'shadow'}`}>
       <div>
         <Image
           onClick={() => router.push('/')}
