@@ -9,9 +9,9 @@ export const Header = () => {
   const [isShowNavbar, setIsShowNavbar] = useState(false)
 
   useEffect(() => {
-    const pathURL = window.location.pathname.replace(/^./, "");
+    const pathURL = router.pathname.replace(/^./, "");
     setPath(pathURL)
-  }, [])
+  }, [router])
 
   function onChangeMenu(route: any) {
     router.push(route)
@@ -32,16 +32,16 @@ export const Header = () => {
         />
         <div className={'hidden md:flex flex-row gap-10'}>
           <a
-            className={`${path === '' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer`}
+            className={`${path === '' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
             onClick={() => onChangeMenu('/')}>Home</a>
           <a
-            className={`${path === 'about' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer`}
+            className={`${path === 'about' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
             onClick={() => onChangeMenu('/about')}>About</a>
           <a
-            className={`${path === 'portfolio' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer`}
+            className={`${path === 'portfolio' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
             onClick={() => onChangeMenu('/portfolio')}>Portfolio</a>
           <a
-            className={`${path === 'certificate' && 'bg-darkblue px-43 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer`}
+            className={`${path === 'certificate' && 'bg-darkblue px-43 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
             onClick={() => onChangeMenu('/certificate')}>Certificate</a>
         </div>
 
