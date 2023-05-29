@@ -6,8 +6,10 @@ import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { AboutType } from '@/utils/types/About';
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 export const AboutMe = (props: AboutType) => {
+  const matches = useMediaQuery('(min-width: 768px)')
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
@@ -18,7 +20,7 @@ export const AboutMe = (props: AboutType) => {
     <div className='relative -mt-8 md:mt-0'>
       <Title>About Me</Title>
       <h3 data-aos='fade-up' className='text-3xl mb-5'>
-        I&#39;m <span className='font-bold text-darkblue'>Dystian En Yusgiantoro</span> and a <span className='font-bold text-darkblue'>Frontend Developer at Extramarks Education!</span>
+        I&#39;m <span className='font-bold text-darkblue'></span> and a <span className='font-bold text-darkblue'>Frontend Developer at Extramarks Education!</span>
       </h3>
       <p data-aos='fade-up' className='text-xl text-justify'>
         Hi, I&#39;m a frontend developer with more than 2 years experience in this industry. I am very passionated and enthusiastic in creating attractive and easy-to-use user interfaces. I have experience in several frameworks such as React,
