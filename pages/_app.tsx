@@ -5,11 +5,11 @@ import { useEffect } from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    const disableRightClick = (e) => {
+    const disableRightClick = (e: any) => {
       e.preventDefault(); // Prevent the default context menu
     };
 
-    const disableInspect = (e) => {
+    const disableInspect = (e: any) => {
       if (e.keyCode === 123) {
         e.preventDefault(); // Prevent F12 key from opening the browser console
       }
