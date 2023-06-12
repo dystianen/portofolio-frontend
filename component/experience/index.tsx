@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import { Title } from '../title';
-import { ExperienceType } from '@/utils/types/Experience';
+import { ExperienceInterface } from '@/utils/interfaces/Experience';
 import { ManyPositions } from './ManyPositions';
 import { SinglePosition } from './SinglePosition';
 
-export const Experience = (props: ExperienceType) => {
+export const Experience = (props: ExperienceInterface) => {
   return (
     <>
       <Title>Experience</Title>
@@ -24,7 +24,7 @@ export const Experience = (props: ExperienceType) => {
                     <h5 className='text-white text-base opacity-60 tracking-wider'>{it.location}</h5>
                   </div>
                   <div className='flex flex-col items-start gap-10 mt-4'>
-                    {it.position.map((position: any, index: any) => (
+                    {it?.positions?.map((position: any, index: any) => (
                       <div className='flex flex-row gap-5'>
                         <div className='h-full'>
                           <div className='w-max'>
@@ -41,11 +41,7 @@ export const Experience = (props: ExperienceType) => {
                 </>
               )}
 
-              {it.company !== 'PT Extramarks Education Indonesia / Kelas Pintar' && (
-                <>
-                  <SinglePosition data={it} />
-                </>
-              )}
+              {it.company !== 'PT Extramarks Education Indonesia / Kelas Pintar' && <SinglePosition data={it} />}
 
               <hr className='text-white mt-5' />
             </div>

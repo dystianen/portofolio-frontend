@@ -2,10 +2,9 @@ import Image from "next/image"
 import { BsFillArrowRightCircleFill } from "react-icons/bs"
 
 export const SinglePosition = ({ data }: any) => {
-
     return (
         <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full -mt-2'>
-            <h5 className='text-white font-bold text-lg'>{data.position}</h5>
+            <h5 className='text-white font-bold text-lg'>{data.positions[0].position}</h5>
             <h5 className='text-lightblue text-base'>{data.company} - {data.type}</h5>
             <div className='flex flex-row gap-2'>
                 <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />

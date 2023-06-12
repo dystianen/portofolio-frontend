@@ -5,7 +5,7 @@ import { MdClose } from 'react-icons/md';
 import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { AboutType } from '@/utils/types/About';
+import { AboutType } from '@/utils/interfaces/About';
 
 export const AboutMe = (props: AboutType) => {
   const [showModal, setShowModal] = useState(false);

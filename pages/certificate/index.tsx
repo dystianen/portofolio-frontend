@@ -2,7 +2,7 @@ import { Title } from '@/component/title';
 import certificate from '../../json/certificate.json';
 import { MdClose } from 'react-icons/md';
 import { useState } from 'react';
-import { CertificateType } from '@/utils/types/Certificate';
+import { CertificateType } from '@/utils/interfaces/Certificate';
 import Image from "next/image";
 
 const Certificate = (props: CertificateType) => {

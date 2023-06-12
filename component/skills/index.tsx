@@ -3,7 +3,7 @@ import { Title } from '../title';
 import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { SkillType } from '@/utils/types/Skill';
+import { SkillType } from '@/utils/interfaces/Skill';
 
 export const Skills = (props: SkillType) => {
   useEffect(() => {

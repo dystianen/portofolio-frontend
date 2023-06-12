@@ -1,7 +1,7 @@
 import { Title } from '@/component/title';
 import portfolio from '../../json/portofolio.json';
 import { AiOutlineLink } from 'react-icons/ai';
-import { PortfolioType } from '@/utils/types/Portfolio';
+import { PortfolioType } from '@/utils/interfaces/Portfolio';
 import Image from 'next/image';
 
 const Portfolio = (props: PortfolioType) => {

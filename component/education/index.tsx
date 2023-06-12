@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Title } from '../title';
-import { EducationType } from '@/utils/types/Education';
+import { EducationType } from '@/utils/interfaces/Education';
 
 export const Education = (props: EducationType) => {
   return (

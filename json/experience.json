@@ -4,26 +4,29 @@
       "company": "PT Extramarks Education Indonesia / Kelas Pintar",
       "long": "3 yrs 10 mos",
       "location": "Jakarta, Indonesia",
-      "position": [
+      "type": "",
+      "start": "",
+      "end": "",
+      "positions": [
         {
           "start": "19 Juni 2023",
           "end": "Current",
           "position": "Frontend Web Developer",
-          "type": "Full Time",
+          "typePosition": "Full Time",
           "desc": []
         },
         {
           "start": "16 Mei 2023",
           "end": "16 Juni 2023",
           "position": "Frontend Web Developer",
-          "type": "Part Time",
+          "typePosition": "Part Time",
           "desc": []
         },
         {
           "start": "07 November 2022",
           "end": "16 Mei 2023",
           "position": "Frontend Web Developer",
-          "type": "Vendor",
+          "typePosition": "Vendor",
           "desc": [
             {
               "title": "",
@@ -48,14 +51,31 @@
             }
           ]
         }
+      ],
+      "desc": [
+        {
+          "title": "",
+          "details": [],
+          "stacks": []
+        }
       ]
     },
     {
       "company": "PT Adyatma Cendekia Sinergi Abadi",
-      "position": "Frontend Web Developer",
+      "long": "3 yrs 10 mos",
+      "location": "Bekasi, Indonesia",
       "type": "Full Time",
       "start": "16 August 2021",
       "end": "31 Mei 2023",
+      "positions": [
+        {
+          "start": "",
+          "end": "",
+          "position": "Frontend Web Developer",
+          "typePosition": "",
+          "desc": []
+        }
+      ],
       "desc": [
         {
           "title": "Trustlink (01 February 2023 -  18 February 2023)",
@@ -130,10 +150,20 @@
     },
     {
       "company": "PT Telkom Access Madiun (Internship)",
-      "position": "Graphic Desaigner",
+      "long": "3 yrs 10 mos",
       "type": "Internship",
+      "location": "Madiun, Indonesia",
       "start": "01 August 2020",
       "end": "01 November 2020",
+      "positions": [
+        {
+          "start": "",
+          "end": "",
+          "position": "Graphic Designer",
+          "typePosition": "",
+          "desc": []
+        }
+      ],
       "desc": [
         {
           "title": "",
@@ -150,10 +180,20 @@
     },
     {
       "company": "Jagoan Hosting Indonesia ( Internship)",
-      "position": "Backend Developer",
+      "long": "3 yrs 10 mos",
       "type": "Internship",
+      "location": "Malang, Indonesia",
       "start": "01 July 2019",
       "end": "01 July 2020",
+      "positions": [
+        {
+          "start": "",
+          "end": "",
+          "position": "Backend Developer",
+          "typePosition": "",
+          "desc": []
+        }
+      ],
       "desc": [
         {
           "title": "Freelancer (Jagoan Hosting) (01 July 2019 - 01 July 2021)",

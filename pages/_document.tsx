@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>DEY</title>
+        <meta charSet="UTF-8" />
         <link rel="shortcut icon" href="/assets/profile.png" />
       </Head>
       <body>
