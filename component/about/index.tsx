@@ -17,10 +17,10 @@ export const AboutMe = (props: AboutType) => {
   return (
     <div className='relative -mt-8 md:mt-0'>
       <Title>About Me</Title>
-      <h3 data-aos='fade-up' className='text-3xl mb-5'>
+      <h3 data-aos='fade-up' className='text-2xl mb-5'>
         I&#39;m <span className='font-bold text-darkblue'>Dystian En Yusgiantoro</span> and a <span className='font-bold text-darkblue'>Frontend Developer at Extramarks Education!</span>
       </h3>
-      <p data-aos='fade-up' className='text-xl text-justify'>
+      <p data-aos='fade-up' className='text-base text-justify'>
         Hi, I&#39;m a frontend developer with more than 2 years experience in this industry. I am very passionated and enthusiastic in creating attractive and easy-to-use user interfaces. I have experience in several frameworks such as React,
         Next.js, Angular, and Vue.js. I&#39;m also very used to using modern technologies like HTML5, CSS3, and JavaScript ES6+. I enjoy working in a team and usually engage in collaborative projects with other designers and developers. I
         believe that effective collaboration is essential to create a quality product. Apart from that, I also frequently participate in local developer communities and attend technology events and meetups to broaden my knowledge and
@@ -30,7 +30,7 @@ export const AboutMe = (props: AboutType) => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 mt-8 w-full md:w-4/6'>
         {props.data?.map((it, index) => (
           <div key={index}>
-            <div className='flex flex-row flex-nowrap text-xl gap-2'>
+            <div className='flex flex-row flex-nowrap text-base gap-2'>
               <h5>{it.title} :</h5>
               <p className={'text-ellipsis overflow-hidden'}>{it.desc}</p>
             </div>

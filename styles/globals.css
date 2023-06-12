@@ -78,7 +78,7 @@ header > div {
 main {
   height: 80vh;
   width: min(100vw - 2em, 1180px);
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 a {
@@ -174,4 +174,10 @@ a {
   left: 5px; /* Jarak dari kiri */
   height: 100%;
   border-left: 2px solid grey; /* Warna dan ketebalan garis */
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 80px;
+  }
 }

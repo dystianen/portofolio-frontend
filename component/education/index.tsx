@@ -23,8 +23,8 @@ export const Education = (props: EducationType) => {
                     {it.start} - {it.end}
                   </h4>
                 </div>
-                <h5 className='text-lightblue font-bold text-lg'>{it.name}</h5>
-                <p className='opacity-60 text-lg'>{it.field}</p>
+                <h5 className='text-lightblue font-bold text-base'>{it.name}</h5>
+                <p className='opacity-60 text-sm'>{it.field}</p>
               </div>
             </div>
           ))}
