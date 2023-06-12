@@ -9,7 +9,7 @@ export const Experience = (props: ExperienceInterface) => {
     <>
       <Title>Experience</Title>
 
-      <div className='relative flex flex-row bg-darkblue rounded-lg w-full p-5 md:p-10'>
+      <div className='relative flex flex-row bg-darkblue rounded-lg w-full py-5 px-7 md:py-10 md:px-12'>
         <div className='absolute -bottom-8 -right-5'>
           <Image src={'/assets/particle-white.png'} height={150} width={150} alt='calender' />
         </div>
