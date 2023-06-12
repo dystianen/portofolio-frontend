@@ -1,6 +1,10 @@
 export type ExperienceType = {
   data: {
-    name: string;
+    company: string;
+    position: string[];
+    location: string;
+    type: string;
+    long: string;
     start: string;
     end: string;
     desc: {

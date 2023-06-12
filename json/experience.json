@@ -1,47 +1,112 @@
 {
   "data": [
     {
-      "name": "PT Extramarks Indonesia / Kelas Pintar (Frontend Web Developer - Vendor)",
-      "start": "November 2022",
-      "end": "Current",
-      "desc": [
+      "company": "PT Extramarks Education Indonesia / Kelas Pintar",
+      "long": "3 yrs 10 mos",
+      "location": "Jakarta, Indonesia",
+      "position": [
         {
-          "title": "Kelas Pintar (November 2022 - Current)",
-          "details": [
-            "Develop new features for Kelas Pintar",
-            "Collaborate, discuss, and brainstorm with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
-            "Slice UI/UX design into application",
-            "Integrate data from API",
-            "Enhance Features, Maintain Codes, and perform Bug Fixes"
-          ],
-          "stacks": ["Javascript", "Typescript", "PHP", "VueJs", "Angular", "NextJs", "Tailwind Css", "Chakra UI", "Zend Framework"]
+          "start": "19 Juni 2023",
+          "end": "Current",
+          "position": "Frontend Web Developer",
+          "type": "Full Time",
+          "desc": []
+        },
+        {
+          "start": "16 Mei 2023",
+          "end": "16 Juni 2023",
+          "position": "Frontend Web Developer",
+          "type": "Part Time",
+          "desc": []
+        },
+        {
+          "start": "07 November 2022",
+          "end": "16 Mei 2023",
+          "position": "Frontend Web Developer",
+          "type": "Vendor",
+          "desc": [
+            {
+              "title": "",
+              "details": [
+                "Develop new features for Kelas Pintar",
+                "Collaborate, discuss, and brainstorm with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
+                "Slice UI/UX design into application",
+                "Integrate data from API",
+                "Enhance Features, Maintain Codes, and perform Bug Fixes"
+              ],
+              "stacks": [
+                "Javascript",
+                "Typescript",
+                "PHP",
+                "VueJs",
+                "Angular",
+                "NextJs",
+                "Tailwind Css",
+                "Chakra UI",
+                "Zend Framework"
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "name": "PT Adyatma Cendekia Sinergi Abadi (Frontend Web Developer)",
-      "start": "August 2021",
-      "end": "August 2023",
+      "company": "PT Adyatma Cendekia Sinergi Abadi",
+      "position": "Frontend Web Developer",
+      "type": "Full Time",
+      "start": "16 August 2021",
+      "end": "31 Mei 2023",
       "desc": [
         {
           "title": "Trustlink (01 February 2023 -  18 February 2023)",
-          "details": ["Developed Landing Page", "Sliced UI/UX design into application"],
-          "stacks": ["NextJs", "Tailwind CSS"]
+          "details": [
+            "Developed Landing Page",
+            "Sliced UI/UX design into application"
+          ],
+          "stacks": [
+            "NextJs",
+            "Tailwind CSS"
+          ]
         },
         {
           "title": "GMP (August 2022 - November 2022)",
-          "details": ["Sliced UI/UX design into application.", "Wired UI component with backend API.", "Enhanced Features, Maintained Codes, and performed Bug Fixes"],
-          "stacks": ["NextJs", "Tailwind CSS", "Ant Design"]
+          "details": [
+            "Sliced UI/UX design into application.",
+            "Wired UI component with backend API.",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
+          ],
+          "stacks": [
+            "NextJs",
+            "Tailwind CSS",
+            "Ant Design"
+          ]
         },
         {
           "title": "Open Banking System (CDI) (April 2022 - July 2022)",
-          "details": ["Sliced UI/UX design into application.", "Wired UI component with backend API.", "Enhanced Features, Maintained Codes, and performed Bug Fixes"],
-          "stacks": ["ReactJs", "NextJs", "Tailwind CSS", "Ant Design"]
+          "details": [
+            "Sliced UI/UX design into application.",
+            "Wired UI component with backend API.",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes"
+          ],
+          "stacks": [
+            "ReactJs",
+            "NextJs",
+            "Tailwind CSS",
+            "Ant Design"
+          ]
         },
         {
           "title": "SPPBE Management System (PT Pertamina) (July 2021 – July 2022)",
-          "details": ["Sliced UI/UX design into application", "Wired UI component with backend API", "Enhanced Features, Maintained Codes, and performed Bug Fixes", "Integrated Google Maps"],
-          "stacks": ["ReactJs", "Ant Design"]
+          "details": [
+            "Sliced UI/UX design into application",
+            "Wired UI component with backend API",
+            "Enhanced Features, Maintained Codes, and performed Bug Fixes",
+            "Integrated Google Maps"
+          ],
+          "stacks": [
+            "ReactJs",
+            "Ant Design"
+          ]
         },
         {
           "title": "CariParkir (PT Astra Digital International) (May 2021 – Juny 2022)",
@@ -53,35 +118,53 @@
             "Enhanced Features, Maintained Codes, and performed Bug Fixes",
             "Integrated Google Maps"
           ],
-          "stacks": ["VueJs", "ReactJs", "KoaJs", "Material-UI", "Vuetify"]
+          "stacks": [
+            "VueJs",
+            "ReactJs",
+            "KoaJs",
+            "Material-UI",
+            "Vuetify"
+          ]
         }
       ]
     },
     {
-      "name": "PT Telkom Access Madiun (Internship)",
-      "start": "August 2020",
-      "end": "November 2020",
+      "company": "PT Telkom Access Madiun (Internship)",
+      "position": "Graphic Desaigner",
+      "type": "Internship",
+      "start": "01 August 2020",
+      "end": "01 November 2020",
       "desc": [
         {
           "title": "",
-          "details": ["Made designs for internal purposes such as warnings", "Marked home for indihome network coverage "],
-          "stacks": ["Corel Draw", "Photoshop"]
+          "details": [
+            "Made designs for internal purposes such as warnings",
+            "Marked home for indihome network coverage "
+          ],
+          "stacks": [
+            "Corel Draw",
+            "Photoshop"
+          ]
         }
       ]
     },
     {
-      "name": "Jagoan Hosting Indonesia (Backend Developer Internship)",
-      "start": "July 2019",
-      "end": "July 2020",
+      "company": "Jagoan Hosting Indonesia ( Internship)",
+      "position": "Backend Developer",
+      "type": "Internship",
+      "start": "01 July 2019",
+      "end": "01 July 2020",
       "desc": [
         {
-          "title": "Freelancer (Jagoan Hosting) (Juny 2019 – Juny 2021)",
+          "title": "Freelancer (Jagoan Hosting) (01 July 2019 - 01 July 2021)",
           "details": [
             "Developed new features for Freelancer Aplication",
             "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
             "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
-          "stacks": ["Laravel"]
+          "stacks": [
+            "Laravel"
+          ]
         }
       ]
     }

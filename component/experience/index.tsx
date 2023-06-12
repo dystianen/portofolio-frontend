@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import { Title } from '../title';
-import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { ExperienceType } from '@/utils/types/Experience';
+import { ManyPositions } from './ManyPositions';
+import { SinglePosition } from './SinglePosition';
 
 export const Experience = (props: ExperienceType) => {
   return (
@@ -12,42 +13,41 @@ export const Experience = (props: ExperienceType) => {
         <div className='absolute -bottom-8 -right-5'>
           <Image src={'/assets/particle-white.png'} height={150} width={150} alt='calender' />
         </div>
-        <div className='w-max'>
-          <div className='w-[0.2rem] min-h-full bg-grey opacity-60 rounded-full'></div>
-        </div>
-        <div className='z-10 flex flex-col gap-10 -ml-[7.3px]'>
+        <div className='z-10 flex flex-col gap-10 -ml-[7.3px] grow'>
           {props.data.map((it, index) => (
-            <div key={index} className='flex flex-row items-start gap-3'>
-              <div className='w-max'>
-                <div className='bg-white rounded-full w-3 h-3'></div>
-              </div>
-              <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full -mt-2'>
-                <div className='flex flex-row gap-2'>
-                  <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />
-                  <h4>
-                    {it.start} - {it.end}
-                  </h4>
-                </div>
-                <h5 className='text-lightblue font-bold mb-3'>{it.name}</h5>
-                {it.desc.map((data, index) => (
-                  <div key={index} className={'mb-5'}>
-                    <h5 className='mb-2'>{data.title}</h5>
-
-                    <h3 className={'opacity-60 mb-4'}>Responsibilities :</h3>
-                    <div className='flex flex-col gap-4 mb-5'>
-                      {data.details.map((detail, index) => (
-                        <div key={index} className='flex flex-row items-start md:items-center gap-2 md:gap-4 opacity-60'>
-                          <div className='w-max mt-1 md:mt-0'>
-                            <BsFillArrowRightCircleFill />
-                          </div>
-                          <p>{detail}</p>
-                        </div>
-                      ))}
-                    </div>
-                    <p className='opacity-60'>Stacks : {data.stacks.length ? data.stacks.join(', ') : '-'}</p>
+            <div key={index} className='flex flex-col gap-3'>
+              {it.company === 'PT Extramarks Education Indonesia / Kelas Pintar' && (
+                <>
+                  <div>
+                    <h5 className='text-lightblue text-lg'>{it.company}</h5>
+                    <h5 className='text-white text-base'>{it.long}</h5>
+                    <h5 className='text-white text-base opacity-60 tracking-wider'>{it.location}</h5>
                   </div>
-                ))}
-              </div>
+                  <div className='flex flex-col items-start gap-10 mt-4'>
+                    {it.position.map((position: any, index: any) => (
+                      <div className='flex flex-row gap-5'>
+                        <div className='h-full'>
+                          <div className='w-max'>
+                            <div className='bg-grey rounded-full w-3 h-3'></div>
+                          </div>
+                          {index !== 2 && (
+                            <div className="line-with-bullet"></div>
+                          )}
+                        </div>
+                        <ManyPositions data={position} />
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
+
+              {it.company !== 'PT Extramarks Education Indonesia / Kelas Pintar' && (
+                <>
+                  <SinglePosition data={it} />
+                </>
+              )}
+
+              <hr className='text-white mt-5' />
             </div>
           ))}
         </div>

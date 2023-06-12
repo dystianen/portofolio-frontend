@@ -161,3 +161,17 @@ a {
 .img-contact {
   filter: invert(9%) sepia(21%) saturate(2596%) hue-rotate(151deg) brightness(95%) contrast(104%);
 }
+
+.line-with-bullet {
+  position: relative;
+  height: 130%;
+}
+
+.line-with-bullet::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 5px; /* Jarak dari kiri */
+  height: 100%;
+  border-left: 2px solid grey; /* Warna dan ketebalan garis */
+}

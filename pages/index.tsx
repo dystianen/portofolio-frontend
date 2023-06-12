@@ -2,10 +2,8 @@ import { Button } from '@/component/button';
 import React from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import useMediaQuery from "@/hooks/useMediaQuery";
 
 const Home = () => {
-  const matches = useMediaQuery('(min-width: 768px)')
   const router = useRouter();
 
   const contact = [
@@ -41,7 +39,7 @@ const Home = () => {
       <div className={'flex flex-col w-full md:w-2/4 gap-5 items-center md:items-start'}>
         <div className={'flex flex-col'}>
           <h1 className={'text-2xl md:text-3xl text-center md:text-left'}>
-            Hello my name is <span className={'font-bold text-darkblue'}>{matches? 'Dystian En Yusgiantoro' : 'Tian'}</span>
+            Hello my name is <span className={'font-bold text-darkblue'}>Tian</span>
           </h1>
           <h1 className={'animasi-teks title text-3xl md:text-4xl text-center md:text-left'}>
             I&#39;m a <span className={'font-bold text-darkblue'}>Frontend Developer!</span>
