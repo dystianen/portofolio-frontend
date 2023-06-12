@@ -17,7 +17,7 @@ export const AboutMe = (props: AboutType) => {
   return (
     <div className='relative -mt-8 md:mt-0'>
       <Title>About Me</Title>
-      <h3 data-aos='fade-up' className='text-2xl mb-5'>
+      <h3 data-aos='fade-up' className='text-lg lg:text-2xl mb-5'>
         I&#39;m <span className='font-bold text-darkblue'>Dystian En Yusgiantoro</span> and a <span className='font-bold text-darkblue'>Frontend Developer at Extramarks Education!</span>
       </h3>
       <p data-aos='fade-up' className='text-base text-justify'>
