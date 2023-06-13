@@ -20,7 +20,7 @@ export const Experience = (props: ExperienceInterface) => {
                 <>
                   <div>
                     <h5 className='text-lightblue text-lg'>{it.company}</h5>
-                    <h5 className='text-white text-base'>{it.long}</h5>
+                    <h5 className='text-orange text-base'>{it.long}</h5>
                     <h5 className='text-white text-base opacity-60 tracking-wider'>{it.location}</h5>
                   </div>
                   <div className='flex flex-col items-start gap-10 mt-4'>

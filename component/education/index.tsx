@@ -24,7 +24,7 @@ export const Education = (props: EducationType) => {
                   </h4>
                 </div>
                 <h5 className='text-lightblue font-bold text-base'>{it.name}</h5>
-                <p className='opacity-60 text-sm'>{it.field}</p>
+                <p className='text-sm text-orange'>{it.field}</p>
               </div>
             </div>
           ))}
