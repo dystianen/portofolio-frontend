@@ -5,13 +5,13 @@ export const SinglePosition = ({ data }: any) => {
         <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl w-full -mt-2'>
             <h5 className='text-white font-bold text-lg'>{data.positions[0].position}</h5>
             <h5 className='text-lightblue text-base'>{data.company} - {data.type}</h5>
-            <div className='flex flex-row items-center gap-2 text-orange mb-5 text-sm'>
+            <div className='flex flex-row items-center gap-2 text-orange text-sm'>
                 <BsCalendarEvent />
                 <h5>{data.start} - {data.end}</h5>
             </div>
             {data.desc.map((it: any, index: any) => (
-                <div key={index} className={'mb-5 text-base'}>
-                    <h5 className='mb-2'>{it.title}</h5>
+                <div key={index} className={'text-base'}>
+                    <h5 className={`mb-2 ${it.title ? 'mt-5' : 'mt-0' }`}>{it.title}</h5>
 
                     <h3 className={'opacity-60 mb-4'}>Responsibilities :</h3>
                     <div className='flex flex-col gap-4 mb-5'>
