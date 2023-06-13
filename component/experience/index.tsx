@@ -16,7 +16,7 @@ export const Experience = (props: ExperienceInterface) => {
         <div className='z-10 flex flex-col gap-10 -ml-[7.3px] grow'>
           {props.data.map((it, index) => (
             <div key={index} className='flex flex-col gap-3'>
-              {it.company === 'PT Extramarks Education Indonesia / Kelas Pintar' && (
+              {it.positions.length > 1 && (
                 <>
                   <div>
                     <h5 className='text-lightblue text-lg'>{it.company}</h5>
@@ -41,9 +41,9 @@ export const Experience = (props: ExperienceInterface) => {
                 </>
               )}
 
-              {it.company !== 'PT Extramarks Education Indonesia / Kelas Pintar' && <SinglePosition data={it} />}
+              {it.positions.length <= 1 && <SinglePosition data={it} />}
 
-              <hr className='text-white mt-5' />
+              {index !== props.data.length - 1 && <hr className='text-white mt-5' />}
             </div>
           ))}
         </div>
