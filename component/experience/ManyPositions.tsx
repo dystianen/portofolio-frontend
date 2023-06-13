@@ -1,16 +1,13 @@
-import Image from "next/image"
-import { BsFillArrowRightCircleFill } from "react-icons/bs"
+import { BsCalendarEvent, BsFillArrowRightCircleFill } from "react-icons/bs"
 
 export const ManyPositions = ({ data }: any) => {
     return (
         <div className='flex flex-col text-white text-base tracking-wide md:text-xl w-full -mt-2'>
             <h5 className='text-white font-bold text-base'>{data.position}</h5>
             <h5 className='text-orange text-sm mb-2'>{data.typePosition}</h5>
-            <div className='flex flex-row gap-2'>
-                <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />
-                <h5 className='text-sm'>
-                    {data.start} - {data.end}
-                </h5>
+            <div className='flex flex-row items-center gap-2 text-sm'>
+                <BsCalendarEvent />
+                <h5>{data.start} - {data.end}</h5>
             </div>
             {data.desc?.map((it: any, index: any) => (
                 <div key={index} className={'text-base'}>

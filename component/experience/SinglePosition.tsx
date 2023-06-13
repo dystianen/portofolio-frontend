@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { BsCalendarEvent, BsFillArrowRightCircleFill } from "react-icons/bs"
 
 export const SinglePosition = ({ data }: any) => {
@@ -8,10 +7,7 @@ export const SinglePosition = ({ data }: any) => {
             <h5 className='text-lightblue text-base'>{data.company} - {data.type}</h5>
             <div className='flex flex-row items-center gap-2 text-orange mb-5 text-sm'>
                 <BsCalendarEvent />
-                {/* <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' color="orange" style={{ fill: 'red' }} /> */}
-                <h5>
-                    {data.start} - {data.end}
-                </h5>
+                <h5>{data.start} - {data.end}</h5>
             </div>
             {data.desc.map((it: any, index: any) => (
                 <div key={index} className={'mb-5 text-base'}>

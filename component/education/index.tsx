@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Title } from '../title';
 import { EducationType } from '@/utils/interfaces/Education';
+import { BsCalendarEvent } from 'react-icons/bs';
 
 export const Education = (props: EducationType) => {
   return (
@@ -17,11 +18,9 @@ export const Education = (props: EducationType) => {
             <div key={index} className='flex flex-row gap-3'>
               <div className='bg-white rounded-full w-3 h-3'></div>
               <div className='flex flex-col gap-1 text-white text-base tracking-wide md:text-xl -mt-2'>
-                <div className='flex flex-row gap-2'>
-                  <Image src={'/assets/calender.svg'} height={20} width={20} alt='calender' />
-                  <h4 className='text-sm'>
-                    {it.start} - {it.end}
-                  </h4>
+                <div className='flex flex-row items-center gap-2 text-sm'>
+                  <BsCalendarEvent />
+                  <h5>{it.start} - {it.end}</h5>
                 </div>
                 <h5 className='text-lightblue font-bold text-base'>{it.name}</h5>
                 <p className='text-sm text-orange'>{it.field}</p>
