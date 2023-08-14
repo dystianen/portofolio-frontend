@@ -7,7 +7,7 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <link rel="shortcut icon" href="/assets/profile.png" />
         <meta property="og:title" content={"Dystian En"} />
-        <meta property="og:image" content={"/assets/thumbnail/profile.jpg"} />
+        <meta property="og:image" content={"https://avatars.githubusercontent.com/u/46418294?v=4"} />
       </Head>
       <body>
         <Main />
