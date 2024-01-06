@@ -13,11 +13,11 @@ function Blog() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-8 w-full">
         <div
           className="relative bg-grey rounded-lg hover:shadow-lg hover:cursor-pointer"
-          onClick={() => router.push("/blog/array-javascript")}
+          onClick={() => router.push("/blog/apa-itu-javascript")}
         >
           <Image
             className="h-52 w-full rounded-t-lg"
-            src={"/assets/blog/javascript.png"}
+            src={"/assets/blog/Javascript.png"}
             width={1000}
             height={200}
             alt={"thumbnail"}

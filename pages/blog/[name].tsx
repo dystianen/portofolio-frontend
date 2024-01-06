@@ -8,7 +8,7 @@ function Blog() {
       <div className="flex flex-col justify-center items-center gap-5 mt-8 w-full">
         <Image
           className="w-[70%] h-[450px] rounded-lg"
-          src={"/assets/blog/javascript.png"}
+          src={"/assets/blog/Javascript.png"}
           width={1000}
           height={200}
           alt={"thumbnail"}
