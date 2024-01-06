@@ -17,7 +17,7 @@ function Blog() {
         >
           <Image
             className="h-52 w-full rounded-t-lg"
-            src={"/assets/blog/array-javascript.png"}
+            src={"/assets/blog/javascript.png"}
             width={1000}
             height={200}
             alt={"thumbnail"}
