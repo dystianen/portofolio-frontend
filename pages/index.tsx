@@ -56,7 +56,7 @@ const Home = () => {
         <Button onClick={() => router.push('/about')}>More About Me</Button>
       </div>
       <div className={'-mt-20'}>
-        <Image src={'/assets/profile.png'} width={500} height={500} alt='profile' />
+        <Image src={'/assets/profile.png'} width={500} height={500} alt='profile' lazyRoot='loading'/>
       </div>
     </div>
   );
