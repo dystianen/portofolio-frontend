@@ -4,7 +4,7 @@ import { Header } from "@/component/header/page";
 const DefaultLayout = ({children}: PropsWithChildren<unknown>): JSX.Element => {
   return (
     <div id='container' className='container-body'>
-      {/* <Header/> */}
+      <Header/>
       <main>{children}</main>
     </div>
   );
