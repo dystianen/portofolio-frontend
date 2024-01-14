@@ -1,6 +1,10 @@
 {
   "data": [
     {
+      "title": "SQL - Oracle",
+      "img": "/assets/certificate/sql.jpg"
+    },
+    {
       "title": "Java Fundamental - Oracle",
       "img": "/assets/certificate/java-fundamental.png"
     },
@@ -11,6 +15,10 @@
     {
       "title": "BlockChain - Oracle",
       "img": "/assets/certificate/blockchain.png"
+    },
+    {
+      "title": "Python Essentials 1 - Cisco",
+      "img": "/assets/certificate/python-essentials.jpeg"
     },
     {
       "title": "Kita dan Digital Lifestyle - BSSN",
