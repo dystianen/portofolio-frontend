@@ -37,9 +37,9 @@ export const Header = () => {
           <a
             className={`${path === 'about' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
             onClick={() => onChangeMenu('/about')}>About</a>
-          <a
+          {/* <a
             className={`${path.includes('blog') && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
-            onClick={() => onChangeMenu('/blog')}>Blog</a>
+            onClick={() => onChangeMenu('/blog')}>Blog</a> */}
           <a
             className={`${path === 'portfolio' && 'bg-darkblue px-4 rounded-full text-white'} hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
             onClick={() => onChangeMenu('/portfolio')}>Portfolio</a>
