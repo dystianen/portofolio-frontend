@@ -21,7 +21,7 @@ export const AboutMe = (props: AboutType) => {
         I&#39;m <span className='font-bold text-darkblue'>Dystian En Yusgiantoro</span> and a <span className='font-bold text-darkblue'>Frontend Developer at Extramarks Education!</span>
       </h3>
       <p data-aos='fade-up' className='text-base text-justify'>
-        Hi, I&#39;m a frontend developer with more than 2 years experience in this industry. I am very passionated and enthusiastic in creating attractive and easy-to-use user interfaces. I have experience in several frameworks such as React,
+        Hi, I&#39;m a frontend developer with more than 3 years experience in this industry. I am very passionated and enthusiastic in creating attractive and easy-to-use user interfaces. I have experience in several frameworks such as React,
         Next.js, Angular, and Vue.js. I&#39;m also very used to using modern technologies like HTML5, CSS3, and JavaScript ES6+. I enjoy working in a team and usually engage in collaborative projects with other designers and developers. I
         believe that effective collaboration is essential to create a quality product. Apart from that, I also frequently participate in local developer communities and attend technology events and meetups to broaden my knowledge and
         network. I believe that as a frontend developer, I have a responsibility to create great user experiences and maintain clean and structured code. I look forward to continuing to learn and grow in my career as a frontend developer.

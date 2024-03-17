@@ -164,7 +164,7 @@ a {
 
 .line-with-bullet {
   position: relative;
-  height: 130%;
+  height: 100%;
 }
 
 .line-with-bullet::before {

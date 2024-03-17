@@ -13,7 +13,24 @@
           "end": "Current",
           "position": "Frontend Web Developer",
           "typePosition": "Full Time",
-          "desc": []
+          "desc": [
+            {
+              "title": "",
+              "details": [
+                "Develop Corporate Website Kelas Pintar to communicate, promote, and manage the company's business.",
+                "Develop a Learning Management System in which there are various features, one example is the exam feature.",
+                "Develop Learn, Practice & Test",
+                "Develop Blog Kelas Pintar.",
+                "Improve website Responsiveness for all devices to make it easier for users to access on various platforms such as mobile, tablets and laptops.",
+                "Implementing best practices and clean code to ensure the quality and consistency of code.",
+                "Optimizing the frontend code to ensure fast page load times and smooth user experience.",
+                "Collaborate with the design team to understand user needs and optimize the user experience.",
+                "Ensures cross-browser compatibility to ensure the application runs well on multiple platforms.",
+                "Perform testing and debugging to ensure code quality and application performance."
+              ],
+              "stacks": ["NextJs", "RTK Query", "Mantine", "Jotai", "Redux", "Atomic Design Pattern", "Framer Motion", "Gitlab"]
+            }
+          ]
         },
         {
           "start": "16 Mei 2023",
@@ -83,10 +100,7 @@
             "Developed Landing Page",
             "Sliced UI/UX design into application"
           ],
-          "stacks": [
-            "NextJs",
-            "Tailwind CSS"
-          ]
+          "stacks": ["NextJs", "Tailwind CSS"]
         },
         {
           "title": "GMP (August 2022 - November 2022)",
@@ -95,11 +109,7 @@
             "Wired UI component with backend API.",
             "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
-          "stacks": [
-            "NextJs",
-            "Tailwind CSS",
-            "Ant Design"
-          ]
+          "stacks": ["NextJs", "Tailwind CSS", "Ant Design"]
         },
         {
           "title": "Open Banking System (CDI) (April 2022 - July 2022)",
@@ -108,12 +118,7 @@
             "Wired UI component with backend API.",
             "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
-          "stacks": [
-            "ReactJs",
-            "NextJs",
-            "Tailwind CSS",
-            "Ant Design"
-          ]
+          "stacks": ["ReactJs", "NextJs", "Tailwind CSS", "Ant Design"]
         },
         {
           "title": "SPPBE Management System (PT Pertamina) (July 2021 – July 2022)",
@@ -123,10 +128,7 @@
             "Enhanced Features, Maintained Codes, and performed Bug Fixes",
             "Integrated Google Maps"
           ],
-          "stacks": [
-            "ReactJs",
-            "Ant Design"
-          ]
+          "stacks": ["ReactJs", "Ant Design"]
         },
         {
           "title": "CariParkir (PT Astra Digital International) (May 2021 – Juny 2022)",
@@ -138,13 +140,7 @@
             "Enhanced Features, Maintained Codes, and performed Bug Fixes",
             "Integrated Google Maps"
           ],
-          "stacks": [
-            "VueJs",
-            "ReactJs",
-            "KoaJs",
-            "Material-UI",
-            "Vuetify"
-          ]
+          "stacks": ["VueJs", "ReactJs", "KoaJs", "Material-UI", "Vuetify"]
         }
       ]
     },
@@ -171,10 +167,7 @@
             "Made designs for internal purposes such as warnings",
             "Marked home for indihome network coverage "
           ],
-          "stacks": [
-            "Corel Draw",
-            "Photoshop"
-          ]
+          "stacks": ["Corel Draw", "Photoshop"]
         }
       ]
     },
@@ -202,9 +195,7 @@
             "Collaborated, discussed, and brainstormed with Ul/UX Designer, Backend Dev & Project Manager in every sprint/scrum events",
             "Enhanced Features, Maintained Codes, and performed Bug Fixes"
           ],
-          "stacks": [
-            "Laravel"
-          ]
+          "stacks": ["Laravel"]
         }
       ]
     }

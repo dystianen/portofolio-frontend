@@ -24,8 +24,8 @@ export const Experience = (props: ExperienceInterface) => {
                     <h5 className='text-white text-base opacity-60 tracking-wider'>{it.location}</h5>
                   </div>
                   <div className='flex flex-col items-start gap-10 mt-4'>
-                    {it?.positions?.map((position: any, index: any) => (
-                      <div className='flex flex-row gap-5'>
+                    {it?.positions?.map((position: any, i: number) => (
+                      <div key={i} className='flex flex-row gap-5'>
                         <div className='h-full'>
                           <div className='w-max'>
                             <div className='bg-grey rounded-full w-3 h-3'></div>
