@@ -1,16 +1,17 @@
 {
   "data": [
+    "Next Js", 
+    "React", 
+    "Vue Js",
+    "Code Igniter 4",
+    "RTK Query",
+    "Graphql",
+    "Redux", 
     "Html", 
     "Css", 
     "Javascript", 
-    "Typescript", 
-    "PHP", 
-    "My Sql", 
-    "React", 
-    "Vue Js", 
-    "Next Js", 
-    "Angular", 
-    "Code Igniter", 
+    "Typescript",
+    "My Sql",
     "Git"
   ]
 }
