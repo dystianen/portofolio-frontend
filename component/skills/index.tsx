@@ -1,24 +1,28 @@
-import { useEffect } from 'react';
-import { Title } from '../title';
-import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { SkillType } from '@/utils/interfaces/Skill';
+import { Title } from "../title";
+import { SkillType } from "@/utils/interfaces/Skill";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 export const Skills = (props: SkillType) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div>
       <Title>Skills</Title>
-      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-5 md:gap-x-10 gap-y-5'>
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-5 md:gap-x-10 gap-y-5">
         {props.data.map((it, index) => (
-          <div key={index} data-aos='fade-up' className='flex flex-row items-center gap-2'>
-            <IoMdCheckmarkCircleOutline className='text-base text-darkblue' />
-            <p className='text-xl text-darkgreen'>{it}</p>
-          </div>
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.2, cursor: "pointer" }}
+          >
+            <motion.div
+              key={index}
+              initial={{ y: 60, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5 * index }}
+              viewport={{ once: true }}
+            >
+              <Image src={it} width={70} height={70} alt="icon" />
+            </motion.div>
+          </motion.div>
         ))}
       </div>
     </div>

@@ -9,7 +9,7 @@ export default function Document() {
         <meta property="og:title" content={"Dystian En"} />
         <meta property="og:image" content={"https://nos.wjv-1.neo.id/asy-syifa/compress_thumbnail.png"} />
       </Head>
-      <body>
+      <body className="font-mono">
         <Main />
         <NextScript />
       </body>

@@ -1,17 +1,19 @@
 {
   "data": [
-    "Next Js", 
-    "React", 
-    "Vue Js",
-    "Code Igniter 4",
-    "RTK Query",
-    "Graphql",
-    "Redux", 
-    "Html", 
-    "Css", 
-    "Javascript", 
-    "Typescript",
-    "My Sql",
-    "Git"
+    "/assets/icons/ic_next.png", 
+    "/assets/icons/ic_react.png",
+    "/assets/icons/ic_vue.png",
+    "/assets/icons/ic_codeigniter.svg",
+    "/assets/icons/ic_html5.svg",
+    "/assets/icons/ic_css.svg",
+    "/assets/icons/ic_javascript.svg",
+    "/assets/icons/ic_typescript.svg",
+    "/assets/icons/ic_php.png",
+    "/assets/icons/ic_rtk.png",
+    "/assets/icons/ic_mysql.svg",
+    "/assets/icons/ic_git.svg",
+    "/assets/icons/ic_tailwind.svg",
+    "/assets/icons/ic_mantine.png",
+    "/assets/icons/ic_antd.png"
   ]
 }
