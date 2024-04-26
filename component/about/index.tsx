@@ -1,21 +1,15 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Title } from "../title";
 import { MdClose } from "react-icons/md";
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { AboutType } from "@/utils/interfaces/About";
 import { motion } from "framer-motion";
 
 export const AboutMe = (props: AboutType) => {
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
-    <div className="relative -mt-8 md:mt-0 mb-20">
+    <div className="relative -mt-8 md:mt-0 md:mb-14">
       <Title>About Me</Title>
       <motion.h3
         className="text-lg lg:text-2xl mb-5"
