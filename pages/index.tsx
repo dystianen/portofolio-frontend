@@ -35,7 +35,7 @@ const Home = () => {
   ]
 
   return (
-    <div className={'flex flex-col-reverse md:flex-row items-center md:justify-between gap-5 md:gap-20 w-full min-h-full'}>
+    <div className={'flex flex-col-reverse md:flex-row items-center md:justify-between gap-5 md:gap-20 w-full min-h-full mb-20'}>
       <div className={'flex flex-col w-full md:w-2/4 gap-5 items-center md:items-start'}>
         <div className={'flex flex-col'}>
           <h1 className={'text-2xl md:text-3xl text-center md:text-left'}>
