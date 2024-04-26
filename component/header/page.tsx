@@ -86,7 +86,7 @@ export const Header = () => {
               path === it.path.substring(1) &&
               "bg-darkblue px-4 rounded-full text-white"
             } hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer w-fit`}
-            onClick={() => onChangeMenu("/")}
+            onClick={() => onChangeMenu(it.path)}
           >
             {it.text}
           </a>
