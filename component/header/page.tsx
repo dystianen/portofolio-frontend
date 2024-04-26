@@ -1,6 +1,7 @@
 import { MdClose, MdMenu } from "react-icons/md";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export const Header = () => {
   const router = useRouter();
@@ -43,7 +44,7 @@ export const Header = () => {
         className={`p-0 bg-white z-50 h-[65px] ${isShowNavbar ? "" : "shadow"}`}
       >
         <div>
-          <h1 className="font-gochi font-extrabold text-3xl text-darkblue">Dev Tian</h1>
+          <Image src="/assets/logo/DevT.png" width={100} height={50} alt="logo"/>
           <div className={"hidden md:flex flex-row gap-10"}>
             {listMenu.map((it, index) => {
               const isActiveMenu = path === it.path.substring(1);
