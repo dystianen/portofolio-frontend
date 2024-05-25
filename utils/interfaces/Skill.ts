@@ -1,3 +1,3 @@
 export type SkillType = {
-  data: string[];
+  data: { text: string, img: string }[];
 };

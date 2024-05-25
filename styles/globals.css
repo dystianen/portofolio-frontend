@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 
 :root {
   --darkgreen: #001920;
@@ -20,7 +20,7 @@
 html,
 body {
   overflow: visible;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color: var(--darkgreen);
   background-color: #ffffff;
@@ -38,7 +38,7 @@ textarea,
 button,
 select,
 a {
-    -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .dark {
@@ -129,7 +129,6 @@ a {
   }
 }
 
-
 .loader-container {
   width: 100%;
   height: 100vh;
@@ -137,7 +136,7 @@ a {
   justify-content: center;
   align-items: center;
   position: fixed;
-  background: #FFFFFF;
+  background: #ffffff;
   z-index: 1;
 }
 
@@ -160,7 +159,8 @@ a {
 }
 
 .img-contact {
-  filter: invert(9%) sepia(21%) saturate(2596%) hue-rotate(151deg) brightness(95%) contrast(104%);
+  filter: invert(9%) sepia(21%) saturate(2596%) hue-rotate(151deg)
+    brightness(95%) contrast(104%);
 }
 
 .line-with-bullet {
@@ -181,4 +181,21 @@ a {
   main {
     margin-top: 80px;
   }
+}
+
+.timeline {
+  position: relative;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: grey;
 }
