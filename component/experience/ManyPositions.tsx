@@ -3,20 +3,20 @@ import { BsCalendarEvent, BsFillArrowRightCircleFill } from "react-icons/bs";
 export const ManyPositions = ({ data }: any) => {
   return (
     <div className="flex flex-col text-white text-base tracking-wide md:text-xl w-full -mt-2">
-      <h5 className="text-white font-bold text-base">{data.position}</h5>
-      <h5 className="text-orange text-sm mb-2">{data.typePosition}</h5>
+      <p className="text-white font-bold text-base">{data.position}</p>
+      <p className="text-orange text-sm mb-2">{data.typePosition}</p>
       <div className="flex flex-row items-center gap-2 text-sm">
         <BsCalendarEvent />
-        <h5>
+        <p>
           {data.start} - {data.end}
-        </h5>
+        </p>
       </div>
       {data.desc?.map((it: any, index: any) => (
         <div key={index} className="text-base timeline-item">
           <div className="timeline-point"></div>
-          <h5 className="mb-2">{it.position}</h5>
+          <p className="mb-2">{it.position}</p>
 
-          <h3 className="opacity-60 mb-4">Responsibilities :</h3>
+          <p className="opacity-60 mb-4">Responsibilities :</p>
           <div className="flex flex-col gap-4 mb-5">
             {it.details.map((detail: any, idx: any) => (
               <div

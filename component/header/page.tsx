@@ -89,16 +89,17 @@ export const Header = () => {
         } duration-300 md:hidden gap-10 bg-white h-screen w-full px-5 py-5 mt-16`}
       >
         {listMenu.map((it, index) => (
-          <a
+          <Link
             key={index}
             className={`${
               path === it.path.substring(1) &&
               "bg-darkblue px-4 rounded-full text-white"
             } hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer w-fit`}
+            href={it.path}
             onClick={() => onChangeMenu(it.path)}
           >
             {it.text}
-          </a>
+          </Link>
         ))}
       </div>
     </>

@@ -24,13 +24,13 @@ export const Experience = (props: ExperienceInterface) => {
             <div key={index} className="flex flex-col gap-3">
               {it.positions.length > 1 && (
                 <div>
-                  <h5 className="text-lightblue text-lg">{it.company}</h5>
-                  <h5 className="text-orange text-base">
+                  <p className="text-lightblue text-lg">{it.company}</p>
+                  <p className="text-orange text-base">
                     {getLong(it.start, it.end)}
-                  </h5>
-                  <h5 className="text-white text-base opacity-60 tracking-wider">
+                  </p>
+                  <p className="text-white text-base opacity-60 tracking-wider">
                     {it.location}
-                  </h5>
+                  </p>
                   <div className="timeline">
                     <div className="flex flex-col items-start gap-10 mt-4">
                       {it?.positions?.map((position: any, i: number) => (
