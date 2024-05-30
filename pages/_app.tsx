@@ -1,7 +1,7 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
 import DefaultLayout from "@/component/layout";
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
   // useEffect(() => {
@@ -30,7 +30,9 @@ export default function App({ Component, pageProps }: AppProps) {
   //   };
   // }, []);
 
-  return <DefaultLayout>
-    <Component {...pageProps} />
-  </DefaultLayout>
+  return (
+    <DefaultLayout>
+      <Component {...pageProps} />
+    </DefaultLayout>
+  );
 }
