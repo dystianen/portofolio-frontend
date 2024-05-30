@@ -15,7 +15,6 @@ export const Header = () => {
   }, [router]);
 
   const onChangeMenu = (route: string) => {
-    router.push(route);
     setPath(route.substring(1));
     setIsShowNavbar(false);
   };
@@ -57,15 +56,16 @@ export const Header = () => {
             {listMenu.map((it, index) => {
               const isActiveMenu = path === it.path.substring(1);
               return (
-                <a
+                <Link
                   key={index}
                   className={`${
                     isActiveMenu && "bg-darkblue px-4 rounded-full text-white"
                   } hover:bg-darkblue hover:rounded-full px-4 hover:text-white hover:cursor-pointer transition-all duration-500`}
+                  href={it.path}
                   onClick={() => onChangeMenu(it.path)}
                 >
                   {it.text}
-                </a>
+                </Link>
               );
             })}
           </div>

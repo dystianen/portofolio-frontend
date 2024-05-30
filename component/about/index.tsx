@@ -66,7 +66,7 @@ export const AboutMe = (props: AboutType) => {
             viewport={{ once: true }}
           >
             <div className="flex flex-row flex-nowrap text-base gap-2">
-              <h5>{it.title} :</h5>
+              <p>{it.title} :</p>
               <p className={"text-ellipsis overflow-hidden"}>{it.desc}</p>
             </div>
             <hr />
