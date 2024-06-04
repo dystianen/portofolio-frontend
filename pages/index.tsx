@@ -46,7 +46,7 @@ const Home = () => {
           </h1>
         </div>
 
-        <p className={'text-lg text-center md:text-left'}>I&#39;m a Frontend Developer with strong curiosity. I like to produce clean code. I strive to stay up-to-date with the latest technology.</p>
+        <p className={'text-lg text-center md:text-left'}>with strong curiosity. I like to produce clean code. I strive to stay up-to-date with the latest technology.</p>
 
         <div className={'flex flex-row items-center gap-8 mb-4'}>
           {contact.map((it, index) => (
