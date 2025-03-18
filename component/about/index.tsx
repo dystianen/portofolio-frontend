@@ -79,7 +79,7 @@ export const AboutMe = (props: AboutType) => {
           className={
             "bg-darkblue grid place-items-center text-white rounded-lg px-4 py-2 text-base hover:cursor-pointer"
           }
-          href={"/Dystian En Yusgiantoro_Frontend Developer_CV.pdf"}
+          href={"Dystian En Yusgiantoro_Frontend Developer_CV.pdf"}
           download={"Dystian En Yusgiantoro_Frontend Developer_CV.pdf"}
           initial={{ y: 10, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
