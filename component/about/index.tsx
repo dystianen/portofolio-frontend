@@ -12,7 +12,7 @@ export const AboutMe = (props: AboutType) => {
     <div className="relative -mt-8 md:mt-0 md:mb-14">
       <Title>About Me</Title>
       <motion.h3
-        className="text-lg lg:text-2xl mb-5"
+        className="mb-5 text-lg lg:text-2xl"
         initial={{ x: -10, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{
@@ -53,7 +53,7 @@ export const AboutMe = (props: AboutType) => {
         developer.
       </motion.p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 mt-8 w-full md:w-4/6">
+      <div className="grid w-full grid-cols-1 mt-8 md:grid-cols-2 gap-x-10 gap-y-5 md:w-4/6">
         {props.data?.map((it, index) => (
           <motion.div
             key={index}
@@ -65,7 +65,7 @@ export const AboutMe = (props: AboutType) => {
             }}
             viewport={{ once: true }}
           >
-            <div className="flex flex-row flex-nowrap text-base gap-2">
+            <div className="flex flex-row gap-2 text-base flex-nowrap">
               <p>{it.title} :</p>
               <p className={"text-ellipsis overflow-hidden"}>{it.desc}</p>
             </div>
@@ -79,8 +79,8 @@ export const AboutMe = (props: AboutType) => {
           className={
             "bg-darkblue grid place-items-center text-white rounded-lg px-4 py-2 text-base hover:cursor-pointer"
           }
-          href={"/CV-Dystian En Yusgiantoro.pdf"}
-          download={"CV-Dystian En Yusgiantoro"}
+          href={"/Dystian En Yusgiantoro_Frontend Developer_CV.pdf"}
+          download={"Dystian En Yusgiantoro_Frontend Developer_CV.pdf"}
           initial={{ y: 10, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{
@@ -108,18 +108,18 @@ export const AboutMe = (props: AboutType) => {
 
       {showModal && (
         <>
-          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-            <div className="relative w-auto my-6 mx-auto max-w-xl">
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                <div className="z-50 absolute right-2 top-2">
+          <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
+            <div className="relative w-auto max-w-xl mx-auto my-6">
+              <div className="relative flex flex-col w-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none">
+                <div className="absolute z-50 right-2 top-2">
                   <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                    className="float-right p-1 ml-auto text-3xl font-semibold leading-none text-black bg-transparent border-0 outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
                   >
                     <MdClose />
                   </button>
                 </div>
-                <div className="relative p-10 flex-auto">
+                <div className="relative flex-auto p-10">
                   <img
                     className="w-full rounded-lg"
                     src={"/assets/thumbnail/comming.avif"}
@@ -129,11 +129,11 @@ export const AboutMe = (props: AboutType) => {
               </div>
             </div>
           </div>
-          <div className="opacity-30 fixed inset-0 z-40 bg-black"></div>
+          <div className="fixed inset-0 z-40 bg-black opacity-30"></div>
         </>
       )}
 
-      <div className="invisible md:visible absolute -bottom-20 right-0">
+      <div className="absolute right-0 invisible md:visible -bottom-20">
         <Image
           src="/assets/particle-blue.png"
           alt="particle"
