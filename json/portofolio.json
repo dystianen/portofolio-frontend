@@ -2,69 +2,99 @@
   "data": [
     {
       "title": "Kelas Pintar",
-      "img": "/assets/thumbnail/kp.png",
-      "href": "https://kelaspintar.id/",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/kp.webp",
+      "href": "https://kelaspintar.id",
       "isPublic": true
     },
     {
-      "title": "Landing Page Staycation",
-      "img": "/assets/thumbnail/staycation.png",
-      "href": "https://staycation-hotel.vercel.app/",
+      "title": "Imagine Store - Shoes",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/ecommerce_shoes.webp",
+      "href": "https://imagine.bagiwebsite.com",
       "isPublic": true
     },
     {
-      "title": "Landing Page Trustlink",
-      "img": "/assets/thumbnail/trustlink.png",
-      "href": "https://www.withtrustlink.com/",
+      "title": "Optikers - Optical E-Commerce",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/optik.webp",
+      "href": "https://optik.bagiwebsite.com",
       "isPublic": true
     },
     {
-      "title": "Battle Tryout Kelas Pintar",
-      "img": "/assets/thumbnail/battle-pintar.png",
-      "href": "https://battle-pintar.vercel.app/",
+      "title": "Landing Page - Staycation",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/staycation.webp",
+      "href": "https://staycation-hotel.vercel.app",
       "isPublic": true
     },
     {
-      "title": "CariParkir BOTS",
-      "img": "/assets/thumbnail/cp.png",
-      "href": "https://bookinglockey.cariparkir.co.id/x1A83M/order",
-      "isPublic": false
+      "title": "Landing Page - Trustlink",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/trustlink.webp",
+      "href": "https://www.withtrustlink.com",
+      "isPublic": true
     },
     {
-      "title": "SPPBE Dashbord System",
-      "img": "/assets/thumbnail/sppbe.png",
-      "href": "https://sppbe.stag.sppbe-digital.com/",
-      "isPublic": false
+      "title": "Battle Tryout - Kelas Pintar",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/battle-pintar.webp",
+      "href": "https://battle-pintar.vercel.app",
+      "isPublic": true
     },
     {
-      "title": "Open Banking App",
-      "img": "/assets/thumbnail/open-banking.png",
-      "href": "https://app.withtrustlink.com/login",
-      "isPublic": false
-    },
-    {
-      "title": "Sport Massage",
-      "img": "/assets/thumbnail/massage.png",
-      "href": "https://play.google.com/store/apps/details?id=com.sport.project_ibu_ayu_v2&hl=en",
+      "title": "Ditaman Store - services",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/ditaman.webp",
+      "href": "https://ditaman.id",
       "isPublic": true
     },
     {
       "title": "Absensi Karyawan",
-      "img": "/assets/thumbnail/absensi.png",
-      "href": "https://absensikaryawan.web.id/",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/absensi.webp",
+      "href": "https://absensi.bagiwebsite.com",
+      "isPublic": false
+    },
+    {
+      "title": "SPPBE Dashbord System",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/sppbe.webp",
+      "href": "https://sppbe.stag.sppbe-digital.com/",
+      "isPublic": false
+    },
+    {
+      "title": "Perpustakaan - SIPERPUS",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/siperpus.webp",
+      "href": "#",
+      "isPublic": false
+    },
+    {
+      "title": "Open Banking App",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/open-banking.webp",
+      "href": "https://app.withtrustlink.com/login",
       "isPublic": false
     },
     {
       "title": "GMP Coin",
-      "img": "/assets/thumbnail/gmp.png",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/gmp.webp",
       "href": "https://app.gmpcoin.io/",
       "isPublic": false
     },
     {
+      "title": "CariParkir BOTS",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/cp.webp",
+      "href": "https://bookinglockey.cariparkir.co.id/x1A83M/order",
+      "isPublic": false
+    },
+    {
+      "title": "Sistem Penilaian Kinerja Guru",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/sipenka.webp",
+      "href": "#",
+      "isPublic": false
+    },
+    {
+      "title": "Sport Massage",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/massage.webp",
+      "href": "https://play.google.com/store/apps/details?id=com.sport.project_ibu_ayu_v2&hl=en",
+      "isPublic": false
+    },
+    {
       "title": "Landing Page Asy-Syfa’",
-      "img": "/assets/thumbnail/syfa.png",
+      "img": "https://cdn.bagiwebsite.com/assets/thumbnail/syfa.webp",
       "href": "https://asy-syifa.site/",
-      "isPublic": true
+      "isPublic": false
     }
   ]
 }
