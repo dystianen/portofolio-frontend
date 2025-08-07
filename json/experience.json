@@ -1,17 +1,44 @@
 {
   "data": [
     {
+      "company": "PT Anugerah Digital Indonesia / Solusiku",
+      "long": "10 mos",
+      "type": "Full Time",
+      "location": "Jakarta, Indonesia",
+      "start": "16 October 2024",
+      "end": "Now",
+      "positions": [
+        {
+          "start": "",
+          "end": "",
+          "position": "Frontend Developer",
+          "typePosition": "",
+          "desc": []
+        }
+      ],
+      "desc": [
+        {
+          "title": "",
+          "details": [
+            "Developing a lender dashboard website to enhance user experience by providing real-time data visualization and streamlined loan management.",
+            "Building and optimizing an internal back-office system to improve operational efficiency through workflow automation and enhanced data management."
+          ],
+          "stacks": ["Vue JS", "Vue Query", "Element UI"]
+        }
+      ]
+    },
+    {
       "company": "PT Extramarks Education Indonesia / Kelas Pintar",
       "long": "1 yrs 4 mos",
       "location": "Jakarta, Indonesia",
       "type": "",
       "start": "16 May 2023",
-      "end": "now",
+      "end": "30 September 2024",
       "positions": [
         {
           "start": "19 Juni 2023",
           "end": "Current",
-          "position": "Middle Frontend Web Developer",
+          "position": "Frontend Developer",
           "typePosition": "Full Time",
           "desc": [
             {
@@ -28,21 +55,30 @@
                 "Ensures cross-browser compatibility to ensure the application runs well on multiple platforms.",
                 "Perform testing and debugging to ensure code quality and application performance."
               ],
-              "stacks": ["NextJs", "RTK Query", "Mantine", "Jotai", "Redux", "Atomic Design Pattern", "Framer Motion", "Gitlab"]
+              "stacks": [
+                "NextJs",
+                "RTK Query",
+                "Mantine",
+                "Jotai",
+                "Redux",
+                "Atomic Design Pattern",
+                "Framer Motion",
+                "Gitlab"
+              ]
             }
           ]
         },
         {
-          "start": "16 Mei 2023",
-          "end": "16 Juni 2023",
-          "position": "Frontend Web Developer",
+          "start": "16 May 2023",
+          "end": "16 June 2023",
+          "position": "Frontend Developer",
           "typePosition": "Part Time",
           "desc": []
         },
         {
           "start": "07 November 2022",
-          "end": "16 Mei 2023",
-          "position": "Frontend Web Developer",
+          "end": "16 May 2023",
+          "position": "Frontend Developer",
           "typePosition": "Vendor",
           "desc": [
             {
@@ -83,12 +119,12 @@
       "location": "Bekasi, Indonesia",
       "type": "Full Time",
       "start": "01 April 2021",
-      "end": "31 Mei 2023",
+      "end": "31 May 2023",
       "positions": [
         {
           "start": "",
           "end": "",
-          "position": "Frontend Web Developer",
+          "position": "Frontend Developer",
           "typePosition": "",
           "desc": []
         }
@@ -140,7 +176,15 @@
             "Enhanced Features, Maintained Codes, and performed Bug Fixes",
             "Integrated Google Maps"
           ],
-          "stacks": ["VueJs", "ReactJs", "KoaJs", "Material-UI", "Vuetify", "Management", "Lead"]
+          "stacks": [
+            "VueJs",
+            "ReactJs",
+            "KoaJs",
+            "Material-UI",
+            "Vuetify",
+            "Management",
+            "Lead"
+          ]
         }
       ]
     },
