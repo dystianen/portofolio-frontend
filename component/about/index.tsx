@@ -24,7 +24,7 @@ export const AboutMe = (props: AboutType) => {
         <span className="font-bold text-darkblue">Dystian En Yusgiantoro</span>{" "}
         and a{" "}
         <span className="font-bold text-darkblue">
-          Frontend Developer at Extramarks Education!
+          Frontend Developer at Hayman Capital!
         </span>
       </motion.h3>
       <motion.p

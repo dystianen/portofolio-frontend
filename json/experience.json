@@ -20,10 +20,45 @@
         {
           "title": "",
           "details": [
-            "Developing a lender dashboard website to enhance user experience by providing real-time data visualization and streamlined loan management.",
-            "Building and optimizing an internal back-office system to improve operational efficiency through workflow automation and enhanced data management."
+            "Built a lender dashboard providing real-time loan monitoring, repayment tracking, and financial reporting.",
+            "Developed an internal back-office platform to streamline operational workflows and administrative processes.",
+            "Implemented reusable React components to improve development efficiency and maintain code consistency.",
+            "Integrated multiple REST APIs to synchronize real-time financial and customer data.",
+            "Collaborated closely with backend engineers and UI/UX designers throughout the development lifecycle.",
+            "Developed social media and news scraping dashboards for sentiment analysis, keyword monitoring, and trend visualization.",
+            "Improved application maintainability through modular architecture and reusable component patterns."
           ],
-          "stacks": ["Vue JS", "Vue Query", "Element UI"]
+          "stacks": ["Vue", "Element Plus", "TypeScript", "Vue Query", "REST API"]
+        }
+      ]
+    },
+    {
+      "company": "Hayman Capital",
+      "long": "1 yr 9 mos",
+      "type": "Contract",
+      "location": "Remote",
+      "start": "01 June 2024",
+      "end": "31 March 2026",
+      "positions": [
+        {
+          "start": "",
+          "end": "",
+          "position": "Frontend Developer",
+          "typePosition": "",
+          "desc": []
+        }
+      ],
+      "desc": [
+        {
+          "title": "",
+          "details": [
+            "Developed Customer Relationship Management (CRM) systems for cooperative operations.",
+            "Built and enhanced P2P Lending applications with responsive interfaces and optimized user experience.",
+            "Collaborated with backend developers to integrate REST APIs across multiple business modules.",
+            "Resolved over 10 critical production issues and more than 50 minor issues while maintaining application stability.",
+            "Improved code quality through reusable components and clean coding practices."
+          ],
+          "stacks": ["React", "Next.js", "Ant Design", "TypeScript", "Redux Toolkit", "REST API"]
         }
       ]
     },
@@ -44,27 +79,14 @@
             {
               "title": "",
               "details": [
-                "Develop Corporate Website Kelas Pintar to communicate, promote, and manage the company's business.",
-                "Develop a Learning Management System in which there are various features, one example is the exam feature.",
-                "Develop Learn, Practice & Test",
-                "Develop Blog Kelas Pintar.",
-                "Improve website Responsiveness for all devices to make it easier for users to access on various platforms such as mobile, tablets and laptops.",
-                "Implementing best practices and clean code to ensure the quality and consistency of code.",
-                "Optimizing the frontend code to ensure fast page load times and smooth user experience.",
-                "Collaborate with the design team to understand user needs and optimize the user experience.",
-                "Ensures cross-browser compatibility to ensure the application runs well on multiple platforms.",
-                "Perform testing and debugging to ensure code quality and application performance."
+                "Developed and maintained the corporate website, mobile applications, Learn Practice Test (LPT) platform, and company blog.",
+                "Delivered responsive web interfaces supporting desktop, tablet, and mobile devices.",
+                "Integrated REST APIs for educational content, authentication, and business management features.",
+                "Collaborated with UI/UX designers to transform Figma designs into production-ready interfaces.",
+                "Successfully resolved more than 50 critical production issues and over 700 minor bugs.",
+                "Improved application stability and maintainability by applying clean architecture and reusable component development."
               ],
-              "stacks": [
-                "NextJs",
-                "RTK Query",
-                "Mantine",
-                "Jotai",
-                "Redux",
-                "Atomic Design Pattern",
-                "Framer Motion",
-                "Gitlab"
-              ]
+              "stacks": ["React.js", "React Native", "Next.js", "Tailwind CSS", "Mantine UI", "TypeScript", "REST API"]
             }
           ]
         },
